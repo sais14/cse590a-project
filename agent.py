@@ -28,7 +28,7 @@ from types import SimpleNamespace
 
 import tools
 
-MODEL = "meta-llama/Llama-3.1-8B-Instruct"
+MODEL = "meta-llama/Llama-3.2-3B-Instruct"
 
 # --------------------------------------------------------------------------- #
 # Prompt construction — the prefix-caching contract
