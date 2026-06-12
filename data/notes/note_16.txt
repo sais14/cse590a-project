@@ -1,0 +1,96 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 22-year-old male
+Admission: 2019-05-20 - 2019-05-21
+Encounter type: inpatient (Drug rehabilitation and detoxification)
+Chief Complaint: Drug rehabilitation and detoxification
+
+History of Present Illness:
+The patient was admitted for Drug rehabilitation and detoxification.
+
+Past Medical History:
+  - Cardiac Arrest (active)
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Coronary Heart Disease (active)
+  - Drug overdose (active)
+  - History of cardiac arrest (situation) (active)
+  - Hypertension (active)
+  - Impacted molars (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Fracture subluxation of wrist (resolved)
+  - Sprain of ankle (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2019-05-06 [emergency] Drug overdose
+  - 2019-02-24 [wellness] General examination of patient (procedure)
+  - 2019-01-12 [outpatient] Encounter for problem (procedure)
+  - 2018-12-17 [ambulatory] Viral sinusitis (disorder)
+  - 2018-12-16 [outpatient] Encounter for check up (procedure)
+  - 2018-12-13 [outpatient] Encounter for problem (procedure)
+  - 2018-11-13 [outpatient] Encounter for problem (procedure)
+  - 2018-03-20 [inpatient] Drug rehabilitation and detoxification
+
+Medication History (prior to this admission; some may be discontinued):
+  - Clopidogrel 75 MG Oral Tablet (started 2019-02-24, ongoing)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2019-02-24, ongoing for Hypertension)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2019-02-24, ongoing)
+  - Simvastatin 20 MG Oral Tablet (started 2019-02-24, ongoing)
+  - Amlodipine 5 MG Oral Tablet (started 2019-02-24, ongoing)
+  - Clopidogrel 75 MG Oral Tablet (started 2018-12-16, discontinued)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2018-12-16, discontinued for Hypertension)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2018-12-16, discontinued)
+  - Simvastatin 20 MG Oral Tablet (started 2018-12-16, discontinued)
+  - Amlodipine 5 MG Oral Tablet (started 2018-12-16, discontinued)
+  - Clopidogrel 75 MG Oral Tablet (started 2018-02-18, discontinued)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2018-02-18, discontinued for Hypertension)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2018-02-18, discontinued)
+  - Simvastatin 20 MG Oral Tablet (started 2018-02-18, discontinued)
+  - Amlodipine 5 MG Oral Tablet (started 2018-02-18, discontinued)
+  - 1 ML Epinephrine 1 MG/ML Injection (started 2017-06-04, discontinued)
+  - 3 ML Amiodarone hydrocholoride 50 MG/ML Prefilled Syringe (started 2017-06-04, discontinued)
+  - Atropine Sulfate 1 MG/ML Injectable Solution (started 2017-06-04, discontinued)
+  - Clopidogrel 75 MG Oral Tablet (started 2017-02-12, discontinued)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2017-02-12, discontinued for Hypertension)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Cardiac Arrest
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Coronary Heart Disease
+  - Drug overdose
+  - History of cardiac arrest (situation)
+  - Hypertension
+  - Impacted molars
+
+Discharge Medications:
+  - Amlodipine 5 MG Oral Tablet
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet
+  - Clopidogrel 75 MG Oral Tablet
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  - Simvastatin 20 MG Oral Tablet
+
+Assessment and Plan:
+  # Cardiac Arrest
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Coronary Heart Disease
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Drug overdose
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # History of cardiac arrest (situation)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

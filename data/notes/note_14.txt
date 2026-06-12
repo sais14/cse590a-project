@@ -1,0 +1,56 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 35-year-old female
+Admission: 2019-12-17 - 2019-12-18
+Encounter type: inpatient (Admission to surgical department)
+Chief Complaint: Admission to surgical department
+
+History of Present Illness:
+The patient was admitted for Admission to surgical department.
+
+Past Medical History:
+  - Miscarriage in first trimester (active)
+  - Perennial allergic rhinitis (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Blighted ovum (resolved)
+  - Normal pregnancy (resolved)
+  - Sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2019-12-10 [outpatient] Consultation for treatment
+  - 2019-09-29 [urgentcare] Urgent care clinic (procedure)
+  - 2019-09-20 [ambulatory] Acute bronchitis (disorder)
+  - 2019-08-11 [ambulatory] Acute viral pharyngitis (disorder)
+  - 2018-12-15 [outpatient] Consultation for treatment
+  - 2018-09-09 [wellness] General examination of patient (procedure)
+  - 2016-12-25 [ambulatory] Postnatal visit
+  - 2016-12-25 [outpatient] Consultation for treatment
+
+Medication History (prior to this admission; some may be discontinued):
+  - Acetaminophen 325 MG Oral Tablet (started 2019-09-20, discontinued for Acute bronchitis (disorder))
+  - Yaz 28 Day Pack (started 2018-12-15, discontinued)
+  - Jolivette 28 Day Pack (started 2016-12-25, discontinued)
+  - Yaz 28 Day Pack (started 2012-11-07, discontinued)
+  - Ortho Tri-Cyclen 28 Day Pack (started 2009-05-24, discontinued)
+  - diphenhydrAMINE Hydrochloride 25 MG Oral Tablet (started 1985-11-28, ongoing)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Bilateral tubal ligation
+
+Discharge Diagnosis:
+  - Miscarriage in first trimester
+  - Perennial allergic rhinitis
+
+Discharge Medications:
+  - diphenhydrAMINE Hydrochloride 25 MG Oral Tablet
+
+Assessment and Plan:
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Perennial allergic rhinitis
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

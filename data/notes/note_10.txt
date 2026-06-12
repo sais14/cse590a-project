@@ -1,0 +1,124 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 60-year-old male
+Admission: 2010-08-30 - 2010-08-31
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 111.3 mg/dL
+  - Creatinine: 2.2 mg/dL
+  - Urea Nitrogen: 19.8 mg/dL
+  - Sodium: 140.0 mmol/L
+  - Potassium: 4.1 mmol/L
+  - Chloride: 108.6 mmol/L
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Carcinoma in situ of prostate (disorder) (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Chronic kidney disease stage 1 (disorder) (active)
+  - Diabetes (active)
+  - Diabetic renal disease (disorder) (active)
+  - Hyperlipidemia (active)
+  - Hypertriglyceridemia (disorder) (active)
+  - Metabolic syndrome X (disorder) (active)
+  - Neoplasm of prostate (active)
+  - Polyp of colon (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Streptococcal sore throat (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2010-08-08 [outpatient] Encounter for check up (procedure)
+  - 2010-07-04 [urgentcare] Urgent care clinic (procedure)
+  - 2010-06-27 [ambulatory] Acute bronchitis (disorder)
+  - 2010-06-20 [wellness] General examination of patient (procedure)
+  - 2010-06-15 [ambulatory] Hyperlipidemia
+  - 2010-06-13 [outpatient] Encounter for check up (procedure)
+  - 2010-06-12 [ambulatory] Neoplasm of prostate
+  - 2010-05-09 [urgentcare] Urgent care clinic (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2010-08-30, ongoing for Chronic congestive heart failure (disorder))
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2010-08-08, ongoing for Diabetes)
+  - Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution (started 2010-06-27, discontinued for Acute bronchitis (disorder))
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2010-06-20, discontinued for Diabetes)
+  - Simvastatin 10 MG Oral Tablet (started 2010-06-15, ongoing for Hyperlipidemia)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2010-06-13, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2010-03-14, discontinued for Diabetes)
+  - 1 ML DOCEtaxel 20 MG/ML Injection (started 2010-03-14, ongoing)
+  - 0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe (started 2010-03-14, ongoing)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2010-03-14, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2010-01-10, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2009-08-16, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2009-06-21, discontinued for Diabetes)
+  - Simvastatin 10 MG Oral Tablet (started 2009-06-15, discontinued for Hyperlipidemia)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2009-06-14, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2009-04-19, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2009-01-18, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2008-12-21, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2008-10-19, discontinued for Diabetes)
+  - Simvastatin 10 MG Oral Tablet (started 2008-06-15, discontinued for Hyperlipidemia)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Carcinoma in situ of prostate (disorder)
+  - Chronic congestive heart failure (disorder)
+  - Chronic kidney disease stage 1 (disorder)
+  - Diabetes
+  - Diabetic renal disease (disorder)
+  - Hyperlipidemia
+  - Hypertriglyceridemia (disorder)
+  - Metabolic syndrome X (disorder)
+  - Neoplasm of prostate
+  - Polyp of colon
+
+Discharge Medications:
+  - 0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe
+  - 1 ML DOCEtaxel 20 MG/ML Injection
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Furosemide 40 MG Oral Tablet
+  - Simvastatin 10 MG Oral Tablet
+  - ferrous sulfate 325 MG Oral Tablet
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Carcinoma in situ of prostate (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Chronic kidney disease stage 1 (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient nephrology follow-up.
+  # Diabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Diabetic renal disease (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient nephrology follow-up.
+  # Hyperlipidemia
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hypertriglyceridemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Metabolic syndrome X (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Neoplasm of prostate
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Polyp of colon
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

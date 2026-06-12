@@ -1,0 +1,78 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 62-year-old female
+Admission: 2017-03-23 - 2017-03-24
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 94.9 mg/dL
+  - Creatinine: 0.7 mg/dL
+  - Urea Nitrogen: 7.5 mg/dL
+  - Sodium: 141.1 mmol/L
+  - Potassium: 4.1 mmol/L
+  - Chloride: 108.5 mmol/L
+
+Past Medical History:
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Chronic sinusitis (disorder) (active)
+  - Miscarriage in first trimester (active)
+  - Osteoarthritis of knee (active)
+  - Acute bacterial sinusitis (disorder) (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2016-11-24 [ambulatory] Viral sinusitis (disorder)
+  - 2016-05-06 [wellness] General examination of patient (procedure)
+  - 2016-03-28 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2016-03-07 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2015-05-01 [wellness] General examination of patient (procedure)
+  - 2015-03-02 [ambulatory] Encounter for 'check-up'
+  - 2014-04-25 [wellness] General examination of patient (procedure)
+  - 2013-04-19 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2017-03-23, ongoing for Chronic congestive heart failure (disorder))
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 2016-03-28, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 2016-03-28, ongoing for Chronic congestive heart failure (disorder))
+  - Naproxen sodium 220 MG Oral Tablet (started 2009-02-18, ongoing for Osteoarthritis of knee)
+  - Naproxen sodium 220 MG Oral Tablet (started 1997-12-31, discontinued)
+  - Naproxen sodium 220 MG Oral Tablet (started 1996-02-16, discontinued)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Body mass index 30+ - obesity (finding)
+  - Chronic congestive heart failure (disorder)
+  - Chronic sinusitis (disorder)
+  - Miscarriage in first trimester
+  - Osteoarthritis of knee
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Furosemide 40 MG Oral Tablet
+  - Naproxen sodium 220 MG Oral Tablet
+
+Assessment and Plan:
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Chronic sinusitis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Osteoarthritis of knee
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

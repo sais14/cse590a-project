@@ -1,0 +1,78 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 23-year-old female
+Admission: 2020-01-23 - 2020-01-24
+Encounter type: inpatient (Drug rehabilitation and detoxification)
+Chief Complaint: Drug rehabilitation and detoxification
+
+History of Present Illness:
+The patient was admitted for Drug rehabilitation and detoxification.
+
+Past Medical History:
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Hypertension (active)
+  - Impacted molars (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Concussion with no loss of consciousness (resolved)
+  - Facial laceration (resolved)
+  - Fracture subluxation of wrist (resolved)
+  - Normal pregnancy (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2020-01-17 [emergency] Normal pregnancy
+  - 2020-01-03 [ambulatory] Normal pregnancy
+  - 2019-12-06 [ambulatory] Normal pregnancy
+  - 2019-11-08 [ambulatory] Normal pregnancy
+  - 2019-10-11 [ambulatory] Normal pregnancy
+  - 2019-10-04 [wellness] General examination of patient (procedure)
+  - 2019-09-13 [ambulatory] Normal pregnancy
+  - 2019-08-16 [ambulatory] Normal pregnancy
+
+Medication History (prior to this admission; some may be discontinued):
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2019-10-04, ongoing for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2019-06-14, discontinued for Hypertension)
+  - Ibuprofen 200 MG Oral Tablet (started 2019-04-24, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2019-01-24, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 2018-11-04, discontinued)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2018-09-28, discontinued for Hypertension)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2018-08-10, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2018-06-27, discontinued)
+  - Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet (started 2018-03-23, discontinued for Viral sinusitis (disorder))
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2018-03-23, discontinued for Hypertension)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2018-01-16, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2017-10-27, discontinued)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2017-09-22, discontinued for Hypertension)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2017-08-14, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 2017-07-01, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2017-04-13, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2016-11-11, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2016-10-05, discontinued)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2016-09-16, discontinued for Hypertension)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 2016-07-09, discontinued)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Hypertension
+  - Impacted molars
+
+Discharge Medications:
+  - Hydrochlorothiazide 25 MG Oral Tablet
+
+Assessment and Plan:
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

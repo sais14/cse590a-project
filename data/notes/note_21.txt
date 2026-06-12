@@ -1,0 +1,79 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 63-year-old female
+Admission: 1977-03-28 - 1977-03-29
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 72.8 mg/dL
+  - Creatinine: 1.2 mg/dL
+  - Urea Nitrogen: 11.3 mg/dL
+  - Sodium: 139.8 mmol/L
+  - Potassium: 4.5 mmol/L
+  - Chloride: 107.0 mmol/L
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Chronic sinusitis (disorder) (active)
+  - Miscarriage in first trimester (active)
+  - Prediabetes (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Injury of medial collateral ligament of knee (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 1976-11-13 [wellness] General examination of patient (procedure)
+  - 1976-09-29 [ambulatory] Chronic congestive heart failure (disorder)
+  - 1976-09-08 [ambulatory] Chronic congestive heart failure (disorder)
+  - 1976-08-06 [inpatient] Injury of medial collateral ligament of knee
+  - 1976-07-30 [emergency] Emergency room admission (procedure)
+  - 1975-11-08 [wellness] General examination of patient (procedure)
+  - 1975-02-15 [outpatient] Encounter for check up (procedure)
+  - 1975-02-04 [ambulatory] Acute bronchitis (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 1977-03-28, ongoing for Chronic congestive heart failure (disorder))
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 1976-09-29, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 1976-09-29, ongoing for Chronic congestive heart failure (disorder))
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet (started 1976-08-06, ongoing)
+  - Acetaminophen 325 MG Oral Tablet (started 1976-07-30, discontinued)
+  - Acetaminophen 325 MG Oral Tablet (started 1975-02-04, discontinued for Acute bronchitis (disorder))
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Chronic congestive heart failure (disorder)
+  - Chronic sinusitis (disorder)
+  - Miscarriage in first trimester
+  - Prediabetes
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet
+  - Furosemide 40 MG Oral Tablet
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Chronic sinusitis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Prediabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

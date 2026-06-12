@@ -1,0 +1,74 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 23-year-old female
+Admission: 2014-01-20 - 2014-01-21
+Encounter type: inpatient (Encounter Inpatient)
+Chief Complaint: Impacted molars
+
+History of Present Illness:
+The patient presented with Impacted molars.
+
+Past Medical History:
+  - Body mass index 30+ - obesity (finding) (active)
+  - Hypertension (active)
+  - Impacted molars (active)
+  - Miscarriage in first trimester (active)
+  - Fracture of clavicle (resolved)
+  - Sprain of ankle (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2014-01-11 [wellness] General examination of patient (procedure)
+  - 2013-12-25 [ambulatory] Fracture of clavicle
+  - 2013-11-25 [emergency] Emergency room admission (procedure)
+  - 2013-11-03 [outpatient] Consultation for treatment
+  - 2013-01-05 [wellness] General examination of patient (procedure)
+  - 2013-01-02 [ambulatory] Viral sinusitis (disorder)
+  - 2012-11-08 [outpatient] Consultation for treatment
+  - 2011-12-31 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2014-01-20, ongoing)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2014-01-11, ongoing for Hypertension)
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet (started 2013-11-25, discontinued)
+  - Acetaminophen 325 MG Oral Tablet (started 2013-11-25, discontinued)
+  - Camila 28 Day Pack (started 2013-11-03, ongoing)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2013-01-05, discontinued for Hypertension)
+  - Jolivette 28 Day Pack (started 2012-11-08, discontinued)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2011-12-31, discontinued for Hypertension)
+  - Camila 28 Day Pack (started 2011-11-14, discontinued)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2010-12-25, discontinued for Hypertension)
+  - Ibuprofen 200 MG Oral Tablet (started 2010-11-20, discontinued)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2009-12-19, discontinued for Hypertension)
+  - Camila 28 Day Pack (started 2009-11-24, discontinued)
+  - Jolivette 28 Day Pack (started 2005-10-22, discontinued)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Extraction of wisdom tooth
+Medications initiated or adjusted during this admission:
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet
+
+Discharge Diagnosis:
+  - Body mass index 30+ - obesity (finding)
+  - Hypertension
+  - Impacted molars
+  - Miscarriage in first trimester
+
+Discharge Medications:
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet
+  - Camila 28 Day Pack
+  - Hydrochlorothiazide 25 MG Oral Tablet
+
+Assessment and Plan:
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

@@ -1,0 +1,152 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 85-year-old female
+Admission: 2007-09-01 - 2007-09-02
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 93.2 mg/dL
+  - Creatinine: 0.9 mg/dL
+  - Urea Nitrogen: 10.6 mg/dL
+  - Sodium: 141.0 mmol/L
+  - Potassium: 4.3 mmol/L
+  - Chloride: 104.6 mmol/L
+
+Past Medical History:
+  - Cardiac Arrest (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Chronic kidney disease stage 1 (disorder) (active)
+  - Chronic sinusitis (disorder) (active)
+  - Coronary Heart Disease (active)
+  - Diabetes (active)
+  - Diabetic renal disease (disorder) (active)
+  - Diabetic retinopathy associated with type II diabetes mellitus (disorder) (active)
+  - History of cardiac arrest (situation) (active)
+  - Hyperglycemia (disorder) (active)
+  - Hyperlipidemia (active)
+  - Hypertension (active)
+  - Hypertriglyceridemia (disorder) (active)
+  - Metabolic syndrome X (disorder) (active)
+  - Miscarriage in first trimester (active)
+  - Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder) (active)
+  - Prediabetes (active)
+  - Pulmonary emphysema (disorder) (active)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2007-06-26 [outpatient] Encounter for check up (procedure)
+  - 2007-05-22 [outpatient] Encounter for check up (procedure)
+  - 2007-04-22 [ambulatory] Hyperlipidemia
+  - 2007-03-05 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2007-02-20 [outpatient] Encounter for check up (procedure)
+  - 2007-02-12 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2006-12-26 [outpatient] Encounter for check up (procedure)
+  - 2006-10-10 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2007-09-01, ongoing for Chronic congestive heart failure (disorder))
+  - Clopidogrel 75 MG Oral Tablet (started 2007-06-26, ongoing)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2007-06-26, ongoing for Diabetes)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2007-06-26, ongoing for Hypertension)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2007-06-26, ongoing)
+  - Simvastatin 20 MG Oral Tablet (started 2007-06-26, ongoing)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2007-06-26, ongoing for Diabetes)
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 2007-06-26, ongoing for Pulmonary emphysema (disorder))
+  - Amlodipine 5 MG Oral Tablet (started 2007-06-26, ongoing)
+  - Clopidogrel 75 MG Oral Tablet (started 2007-05-22, discontinued)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2007-05-22, discontinued for Diabetes)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2007-05-22, discontinued for Hypertension)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2007-05-22, discontinued)
+  - Simvastatin 20 MG Oral Tablet (started 2007-05-22, discontinued)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2007-05-22, discontinued for Diabetes)
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 2007-05-22, discontinued for Pulmonary emphysema (disorder))
+  - Amlodipine 5 MG Oral Tablet (started 2007-05-22, discontinued)
+  - Simvastatin 10 MG Oral Tablet (started 2007-04-22, ongoing for Hyperlipidemia)
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 2007-03-05, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 2007-03-05, ongoing for Chronic congestive heart failure (disorder))
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Cardiac Arrest
+  - Chronic congestive heart failure (disorder)
+  - Chronic kidney disease stage 1 (disorder)
+  - Chronic sinusitis (disorder)
+  - Coronary Heart Disease
+  - Diabetes
+  - Diabetic renal disease (disorder)
+  - Diabetic retinopathy associated with type II diabetes mellitus (disorder)
+  - History of cardiac arrest (situation)
+  - Hyperglycemia (disorder)
+  - Hyperlipidemia
+  - Hypertension
+  - Hypertriglyceridemia (disorder)
+  - Metabolic syndrome X (disorder)
+  - Miscarriage in first trimester
+  - Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)
+  - Prediabetes
+  - Pulmonary emphysema (disorder)
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+  - Amlodipine 5 MG Oral Tablet
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet
+  - Clopidogrel 75 MG Oral Tablet
+  - Furosemide 40 MG Oral Tablet
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  - Simvastatin 10 MG Oral Tablet
+  - Simvastatin 20 MG Oral Tablet
+  - Vitamin B 12 5 MG/ML Injectable Solution
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+
+Assessment and Plan:
+  # Cardiac Arrest
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Chronic kidney disease stage 1 (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient nephrology follow-up.
+  # Chronic sinusitis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Coronary Heart Disease
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Diabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Diabetic renal disease (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient nephrology follow-up.
+  # Diabetic retinopathy associated with type II diabetes mellitus (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # History of cardiac arrest (situation)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hyperglycemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hyperlipidemia
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hypertriglyceridemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Metabolic syndrome X (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Prediabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Pulmonary emphysema (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

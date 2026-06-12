@@ -1,0 +1,60 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 75-year-old female
+Admission: 2017-02-11 - 2017-02-12
+Encounter type: inpatient (Non-urgent orthopedic admission)
+Chief Complaint: Rupture of patellar tendon
+
+History of Present Illness:
+The patient was admitted for Rupture of patellar tendon.
+
+Past Medical History:
+  - Miscarriage in first trimester (active)
+  - Rupture of patellar tendon (active)
+  - Tubal pregnancy (active)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Sprain of ankle (resolved)
+
+Prior Encounters (most recent):
+  - 2017-02-04 [emergency] Emergency room admission (procedure)
+  - 2016-12-12 [wellness] General examination of patient (procedure)
+  - 2015-12-07 [wellness] General examination of patient (procedure)
+  - 2014-12-01 [wellness] General examination of patient (procedure)
+  - 2013-11-25 [wellness] General examination of patient (procedure)
+  - 2013-08-10 [emergency] Emergency room admission (procedure)
+  - 2012-11-19 [wellness] General examination of patient (procedure)
+  - 2011-11-14 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet (started 2017-02-11, ongoing)
+  - Acetaminophen 325 MG Oral Tablet (started 2017-02-04, ongoing)
+  - Ibuprofen 200 MG Oral Tablet (started 2013-08-10, discontinued)
+  - Acetaminophen 325 MG Oral Tablet (started 2011-07-17, discontinued)
+  - diphenhydrAMINE Hydrochloride 25 MG Oral Tablet (started 1947-08-16, ongoing)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Surgical manipulation of joint of knee
+Medications initiated or adjusted during this admission:
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet
+
+Discharge Diagnosis:
+  - Miscarriage in first trimester
+  - Rupture of patellar tendon
+  - Tubal pregnancy
+
+Discharge Medications:
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet
+  - Acetaminophen 325 MG Oral Tablet
+  - diphenhydrAMINE Hydrochloride 25 MG Oral Tablet
+
+Assessment and Plan:
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Rupture of patellar tendon
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Tubal pregnancy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

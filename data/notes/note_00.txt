@@ -1,0 +1,64 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 17-year-old male
+Admission: 2020-04-14 - 2020-04-15
+Encounter type: inpatient (Encounter Inpatient)
+Chief Complaint: Impacted molars
+
+History of Present Illness:
+The patient was admitted for Impacted molars.
+
+Past Medical History:
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Impacted molars (active)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Streptococcal sore throat (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2020-03-01 [inpatient] Chronic pain
+  - 2019-12-31 [wellness] Well child visit (procedure)
+  - 2019-12-25 [inpatient] Impacted molars
+  - 2019-09-07 [inpatient] Impacted molars
+  - 2019-07-18 [inpatient] Chronic pain
+  - 2018-12-31 [inpatient] Chronic intractable migraine without aura
+  - 2018-12-25 [wellness] Well child visit (procedure)
+  - 2018-10-18 [inpatient] Chronic intractable migraine without aura
+
+Medication History (prior to this admission; some may be discontinued):
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2020-04-14, ongoing)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2020-03-01, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2019-12-25, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 2019-09-07, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2019-07-18, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 2018-12-31, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 2018-10-18, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2018-08-05, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2018-05-18, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 2017-12-21, discontinued)
+  - Penicillin V Potassium 250 MG Oral Tablet (started 2012-10-14, discontinued for Streptococcal sore throat (disorder))
+
+Hospital Course:
+Procedures performed during this admission:
+  - Extraction of wisdom tooth
+Medications initiated or adjusted during this admission:
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet
+
+Discharge Diagnosis:
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Impacted molars
+
+Discharge Medications:
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet
+
+Assessment and Plan:
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

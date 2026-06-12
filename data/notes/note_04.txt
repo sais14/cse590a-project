@@ -1,0 +1,67 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 35-year-old female
+Admission: 1988-06-25 - 1988-06-27
+Encounter type: inpatient (Admission to surgical department)
+Chief Complaint: Admission to surgical department
+
+History of Present Illness:
+The patient was admitted for Admission to surgical department.
+
+Past Medical History:
+  - Appendicitis (active)
+  - Chronic obstructive bronchitis (disorder) (active)
+  - History of appendectomy (active)
+  - Rupture of appendix (active)
+
+Prior Encounters (most recent):
+  - 1987-06-20 [wellness] General examination of patient (procedure)
+  - 1986-07-19 [outpatient] Encounter for check up (procedure)
+  - 1986-06-14 [wellness] General examination of patient (procedure)
+  - 1986-03-01 [emergency] Appendicitis
+  - 1986-03-01 [inpatient] Appendicitis
+  - 1985-06-08 [wellness] General examination of patient (procedure)
+  - 1984-06-02 [wellness] General examination of patient (procedure)
+  - 1983-05-28 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1988-06-25, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1988-06-25, ongoing for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1987-06-20, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1986-07-19, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1986-06-14, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1985-06-08, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1984-06-02, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1983-05-28, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1982-05-22, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1981-05-16, discontinued for Chronic obstructive bronchitis (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1981-05-16, discontinued for Chronic obstructive bronchitis (disorder))
+  - diphenhydrAMINE Hydrochloride 25 MG Oral Tablet (started 1958-03-27, ongoing)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+Medications initiated or adjusted during this admission:
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+
+Discharge Diagnosis:
+  - Appendicitis
+  - Chronic obstructive bronchitis (disorder)
+  - History of appendectomy
+  - Rupture of appendix
+
+Discharge Medications:
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+  - diphenhydrAMINE Hydrochloride 25 MG Oral Tablet
+
+Assessment and Plan:
+  # Appendicitis
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic obstructive bronchitis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient pulmonology follow-up.
+  # History of appendectomy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Rupture of appendix
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

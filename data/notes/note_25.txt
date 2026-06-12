@@ -1,0 +1,68 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 39-year-old male
+Admission: 1993-08-18 - 1993-08-19
+Encounter type: inpatient (Admission to thoracic surgery department)
+Chief Complaint: Pulmonary emphysema (disorder)
+
+History of Present Illness:
+The patient was admitted for Pulmonary emphysema (disorder).
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Concussion with no loss of consciousness (active)
+  - Prediabetes (active)
+  - Pulmonary emphysema (disorder) (active)
+
+Prior Encounters (most recent):
+  - 1993-08-07 [emergency] Emergency room admission (procedure)
+  - 1993-06-02 [wellness] General examination of patient (procedure)
+  - 1993-06-02 [ambulatory] Anemia (disorder)
+  - 1992-05-27 [wellness] General examination of patient (procedure)
+  - 1991-05-22 [wellness] General examination of patient (procedure)
+  - 1990-05-16 [wellness] General examination of patient (procedure)
+  - 1989-05-10 [wellness] General examination of patient (procedure)
+  - 1988-05-04 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1993-06-02, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1993-06-02, ongoing for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1992-05-27, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1991-05-22, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1990-05-16, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1989-05-10, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1988-05-04, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1987-04-29, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1986-04-23, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1985-04-17, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1985-04-17, discontinued for Pulmonary emphysema (disorder))
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transplant of lung (procedure)
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Concussion with no loss of consciousness
+  - Prediabetes
+  - Pulmonary emphysema (disorder)
+
+Discharge Medications:
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Concussion with no loss of consciousness
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Prediabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Pulmonary emphysema (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

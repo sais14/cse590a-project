@@ -1,0 +1,90 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 74-year-old female
+Admission: 2020-02-29 - 2020-03-01
+Encounter type: inpatient (Screening surveillance (regime/therapy))
+Chief Complaint: Malignant neoplasm of breast (disorder)
+
+History of Present Illness:
+The patient was admitted for Malignant neoplasm of breast (disorder).
+
+Past Medical History:
+  - Body mass index 30+ - obesity (finding) (active)
+  - Hyperlipidemia (active)
+  - Hypertension (active)
+  - Malignant neoplasm of breast (disorder) (active)
+  - Miscarriage in first trimester (active)
+  - Osteoarthritis of knee (active)
+  - Osteoporosis (disorder) (active)
+  - Whiplash injury to neck (resolved)
+
+Prior Encounters (most recent):
+  - 2019-11-02 [ambulatory] Malignant neoplasm of breast (disorder)
+  - 2019-07-27 [ambulatory] Malignant neoplasm of breast (disorder)
+  - 2019-05-11 [wellness] General examination of patient (procedure)
+  - 2019-05-02 [ambulatory] Hyperlipidemia
+  - 2019-04-20 [ambulatory] Malignant neoplasm of breast (disorder)
+  - 2019-04-20 [inpatient] Malignant neoplasm of breast (disorder)
+  - 2019-04-20 [inpatient] Malignant neoplasm of breast (disorder)
+  - 2019-01-12 [ambulatory] Malignant neoplasm of breast (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2019-05-11, ongoing for Hypertension)
+  - Simvastatin 10 MG Oral Tablet (started 2019-05-02, ongoing for Hyperlipidemia)
+  - Tamoxifen 10 MG Oral Tablet (started 2018-06-23, discontinued for Malignant neoplasm of breast (disorder))
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2018-05-05, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2018-05-05, discontinued for Hypertension)
+  - Simvastatin 10 MG Oral Tablet (started 2018-05-02, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 2017-05-02, discontinued for Hyperlipidemia)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2017-04-29, discontinued for Hypertension)
+  - Simvastatin 10 MG Oral Tablet (started 2016-05-02, discontinued for Hyperlipidemia)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2016-04-23, discontinued for Hypertension)
+  - Alendronic acid 10 MG Oral Tablet (started 2016-04-23, ongoing)
+  - Simvastatin 10 MG Oral Tablet (started 2015-05-03, discontinued for Hyperlipidemia)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2015-04-18, discontinued for Hypertension)
+  - Simvastatin 10 MG Oral Tablet (started 2014-05-03, discontinued for Hyperlipidemia)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2014-04-12, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2013-04-06, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2012-03-31, discontinued for Hypertension)
+  - Acetaminophen 325 MG Oral Tablet (started 2012-03-17, discontinued)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2011-03-26, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2010-03-20, discontinued for Hypertension)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Mammography (procedure)
+
+Discharge Diagnosis:
+  - Body mass index 30+ - obesity (finding)
+  - Hyperlipidemia
+  - Hypertension
+  - Malignant neoplasm of breast (disorder)
+  - Miscarriage in first trimester
+  - Osteoarthritis of knee
+  - Osteoporosis (disorder)
+
+Discharge Medications:
+  - Alendronic acid 10 MG Oral Tablet
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet
+  - Naproxen sodium 220 MG Oral Tablet
+  - Simvastatin 10 MG Oral Tablet
+  - ferrous sulfate 325 MG Oral Tablet
+
+Assessment and Plan:
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Hyperlipidemia
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Malignant neoplasm of breast (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Osteoarthritis of knee
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Osteoporosis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

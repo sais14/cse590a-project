@@ -1,0 +1,212 @@
+[
+  {
+    "note_id": 0,
+    "patient_id": "00185faa-2760-4218-9bf5-db301acf8274",
+    "path": "data/notes/note_00.txt",
+    "chars": 3301,
+    "approx_tokens": 825
+  },
+  {
+    "note_id": 1,
+    "patient_id": "02f9aadd-72de-4b20-b381-f4c3b1cf7aa3",
+    "path": "data/notes/note_01.txt",
+    "chars": 6871,
+    "approx_tokens": 1717
+  },
+  {
+    "note_id": 2,
+    "patient_id": "0325261f-61eb-46f8-acc6-89d15053fecd",
+    "path": "data/notes/note_02.txt",
+    "chars": 8590,
+    "approx_tokens": 2147
+  },
+  {
+    "note_id": 3,
+    "patient_id": "03612a7e-6460-4ef6-9528-59d60f970b93",
+    "path": "data/notes/note_03.txt",
+    "chars": 3552,
+    "approx_tokens": 888
+  },
+  {
+    "note_id": 4,
+    "patient_id": "04630e85-e9f5-4a9b-be75-97f2c3346037",
+    "path": "data/notes/note_04.txt",
+    "chars": 4479,
+    "approx_tokens": 1119
+  },
+  {
+    "note_id": 5,
+    "patient_id": "04a849f4-1aaf-4112-a62f-d44df4325773",
+    "path": "data/notes/note_05.txt",
+    "chars": 4359,
+    "approx_tokens": 1089
+  },
+  {
+    "note_id": 6,
+    "patient_id": "0522e580-6775-49f5-b471-b39624280402",
+    "path": "data/notes/note_06.txt",
+    "chars": 3486,
+    "approx_tokens": 871
+  },
+  {
+    "note_id": 7,
+    "patient_id": "0606d624-7695-41e2-96f0-0b5d3578ae24",
+    "path": "data/notes/note_07.txt",
+    "chars": 4613,
+    "approx_tokens": 1153
+  },
+  {
+    "note_id": 8,
+    "patient_id": "08180c75-dd87-418f-95ff-06fb2f434713",
+    "path": "data/notes/note_08.txt",
+    "chars": 1602,
+    "approx_tokens": 400
+  },
+  {
+    "note_id": 9,
+    "patient_id": "099198eb-df60-41d1-ad22-3655b957d805",
+    "path": "data/notes/note_09.txt",
+    "chars": 4681,
+    "approx_tokens": 1170
+  },
+  {
+    "note_id": 10,
+    "patient_id": "09cbb3f1-c2ed-426c-8c53-ffda77efcb08",
+    "path": "data/notes/note_10.txt",
+    "chars": 7436,
+    "approx_tokens": 1859
+  },
+  {
+    "note_id": 11,
+    "patient_id": "09fc03c4-aef7-47e1-941a-618f437dfbe2",
+    "path": "data/notes/note_11.txt",
+    "chars": 2390,
+    "approx_tokens": 597
+  },
+  {
+    "note_id": 12,
+    "patient_id": "0ba90366-87ad-4f9d-9bcd-c11e63eb6f27",
+    "path": "data/notes/note_12.txt",
+    "chars": 3737,
+    "approx_tokens": 934
+  },
+  {
+    "note_id": 13,
+    "patient_id": "0c1606c8-637e-4ed3-baf4-67390d8f3956",
+    "path": "data/notes/note_13.txt",
+    "chars": 3550,
+    "approx_tokens": 887
+  },
+  {
+    "note_id": 14,
+    "patient_id": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+    "path": "data/notes/note_14.txt",
+    "chars": 2377,
+    "approx_tokens": 594
+  },
+  {
+    "note_id": 15,
+    "patient_id": "0edbb001-5914-42b6-9194-0a3c753b5c25",
+    "path": "data/notes/note_15.txt",
+    "chars": 5098,
+    "approx_tokens": 1274
+  },
+  {
+    "note_id": 16,
+    "patient_id": "0f5646bc-a156-4ec0-9252-5b592e3d3184",
+    "path": "data/notes/note_16.txt",
+    "chars": 4791,
+    "approx_tokens": 1197
+  },
+  {
+    "note_id": 17,
+    "patient_id": "119ab996-9fbd-4243-9a4a-e821dfc6c6f9",
+    "path": "data/notes/note_17.txt",
+    "chars": 4672,
+    "approx_tokens": 1168
+  },
+  {
+    "note_id": 18,
+    "patient_id": "1302bca8-7576-4009-aac7-8750c7d50140",
+    "path": "data/notes/note_18.txt",
+    "chars": 4899,
+    "approx_tokens": 1224
+  },
+  {
+    "note_id": 19,
+    "patient_id": "137acc1b-dbca-473e-84bb-fe1baaf98819",
+    "path": "data/notes/note_19.txt",
+    "chars": 2767,
+    "approx_tokens": 691
+  },
+  {
+    "note_id": 20,
+    "patient_id": "13a3a783-ecc5-4ec5-b3dc-168b15cebb88",
+    "path": "data/notes/note_20.txt",
+    "chars": 7350,
+    "approx_tokens": 1837
+  },
+  {
+    "note_id": 21,
+    "patient_id": "13b9a676-7cfd-4b7c-bdb6-43ec52b7c919",
+    "path": "data/notes/note_21.txt",
+    "chars": 3773,
+    "approx_tokens": 943
+  },
+  {
+    "note_id": 22,
+    "patient_id": "13db4bb8-d1dc-4158-a820-d2d1b7084fc4",
+    "path": "data/notes/note_22.txt",
+    "chars": 5005,
+    "approx_tokens": 1251
+  },
+  {
+    "note_id": 23,
+    "patient_id": "144edc8e-936e-42d7-8e7d-f3578cf80cc2",
+    "path": "data/notes/note_23.txt",
+    "chars": 2714,
+    "approx_tokens": 678
+  },
+  {
+    "note_id": 24,
+    "patient_id": "1474f954-3781-4de1-9d5d-27a2b8688419",
+    "path": "data/notes/note_24.txt",
+    "chars": 4821,
+    "approx_tokens": 1205
+  },
+  {
+    "note_id": 25,
+    "patient_id": "173c7abc-b19b-4533-aa53-7156b53df51f",
+    "path": "data/notes/note_25.txt",
+    "chars": 4401,
+    "approx_tokens": 1100
+  },
+  {
+    "note_id": 26,
+    "patient_id": "1847f723-4c17-46b8-805a-61d8cb43c9bb",
+    "path": "data/notes/note_26.txt",
+    "chars": 2845,
+    "approx_tokens": 711
+  },
+  {
+    "note_id": 27,
+    "patient_id": "1a100862-757a-4450-94a6-9731a522f707",
+    "path": "data/notes/note_27.txt",
+    "chars": 4643,
+    "approx_tokens": 1160
+  },
+  {
+    "note_id": 28,
+    "patient_id": "1a7e8f38-95df-4c27-8897-21ed04c3b98b",
+    "path": "data/notes/note_28.txt",
+    "chars": 5733,
+    "approx_tokens": 1433
+  },
+  {
+    "note_id": 29,
+    "patient_id": "1c0cea09-f0db-4ef0-a551-d67645ee4538",
+    "path": "data/notes/note_29.txt",
+    "chars": 5675,
+    "approx_tokens": 1418
+  }
+]

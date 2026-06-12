@@ -1,0 +1,76 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 67-year-old male
+Admission: 2014-09-16 - 2014-09-17
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 71.8 mg/dL
+  - Creatinine: 1.0 mg/dL
+  - Urea Nitrogen: 18.5 mg/dL
+  - Sodium: 140.9 mmol/L
+  - Potassium: 4.3 mmol/L
+  - Chloride: 106.6 mmol/L
+
+Past Medical History:
+  - Appendicitis (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Chronic sinusitis (disorder) (active)
+  - History of appendectomy (active)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Sprain of ankle (resolved)
+  - Sprain of wrist (resolved)
+  - Streptococcal sore throat (disorder) (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2014-06-18 [wellness] General examination of patient (procedure)
+  - 2013-12-30 [emergency] Emergency room admission (procedure)
+  - 2013-09-21 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2013-06-12 [wellness] General examination of patient (procedure)
+  - 2012-06-06 [wellness] General examination of patient (procedure)
+  - 2012-03-30 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2011-06-01 [wellness] General examination of patient (procedure)
+  - 2011-04-05 [ambulatory] Chronic congestive heart failure (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2014-09-16, ongoing for Chronic congestive heart failure (disorder))
+  - Acetaminophen 325 MG Oral Tablet (started 2013-12-30, discontinued)
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 2011-04-05, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 2011-04-05, ongoing for Chronic congestive heart failure (disorder))
+  - Penicillin V Potassium 500 MG Oral Tablet (started 2007-11-08, discontinued for Streptococcal sore throat (disorder))
+  - Naproxen sodium 220 MG Oral Tablet (started 2006-10-10, discontinued)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Appendicitis
+  - Chronic congestive heart failure (disorder)
+  - Chronic sinusitis (disorder)
+  - History of appendectomy
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Furosemide 40 MG Oral Tablet
+
+Assessment and Plan:
+  # Appendicitis
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Chronic sinusitis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # History of appendectomy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

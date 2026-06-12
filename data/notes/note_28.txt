@@ -1,0 +1,108 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 74-year-old male
+Admission: 2016-06-08 - 2016-06-09
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 84.9 mg/dL
+  - Creatinine: 0.8 mg/dL
+  - Urea Nitrogen: 9.0 mg/dL
+  - Sodium: 140.3 mmol/L
+  - Potassium: 4.6 mmol/L
+  - Chloride: 104.0 mmol/L
+
+Past Medical History:
+  - Alzheimer's disease (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Drug overdose (active)
+  - Hypertension (active)
+  - Impacted molars (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Chronic sinusitis (disorder) (resolved)
+  - Sinusitis (disorder) (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2016-05-28 [wellness] General examination of patient (procedure)
+  - 2016-02-06 [ambulatory] Alzheimer's disease (disorder)
+  - 2016-01-05 [outpatient] Encounter for problem (procedure)
+  - 2015-06-14 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2015-06-13 [urgentcare] Urgent care clinic (procedure)
+  - 2015-06-07 [ambulatory] Sinusitis (disorder)
+  - 2015-05-31 [ambulatory] Sinusitis (disorder)
+  - 2015-05-24 [ambulatory] Chronic congestive heart failure (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2016-06-08, ongoing for Chronic congestive heart failure (disorder))
+  - Hydrochlorothiazide 12.5 MG (started 2016-05-28, ongoing for Hypertension)
+  - 24 HR Donepezil hydrochloride 10 MG / Memantine hydrochloride 28 MG Extended Release Oral Capsule (started 2016-02-06, ongoing for Alzheimer's disease (disorder))
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 2015-06-14, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 2015-06-14, ongoing for Chronic congestive heart failure (disorder))
+  - Hydrochlorothiazide 12.5 MG (started 2015-05-23, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2015-05-16, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2014-05-17, discontinued for Hypertension)
+  - Galantamine 4 MG Oral Tablet (started 2014-05-17, discontinued for Alzheimer's disease (disorder))
+  - Hydrochlorothiazide 12.5 MG (started 2013-05-11, discontinued for Hypertension)
+  - Acetaminophen 325 MG Oral Tablet (started 2012-08-20, discontinued for Acute bronchitis (disorder))
+  - Hydrochlorothiazide 12.5 MG (started 2012-05-05, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2011-04-30, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2011-04-09, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2010-04-24, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2009-04-18, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2008-04-12, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2007-04-07, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2006-04-01, discontinued for Hypertension)
+  - Hydrochlorothiazide 12.5 MG (started 2005-03-26, discontinued for Hypertension)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Alzheimer's disease (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Chronic congestive heart failure (disorder)
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Drug overdose
+  - Hypertension
+  - Impacted molars
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR Donepezil hydrochloride 10 MG / Memantine hydrochloride 28 MG Extended Release Oral Capsule
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Furosemide 40 MG Oral Tablet
+  - Hydrochlorothiazide 12.5 MG
+
+Assessment and Plan:
+  # Alzheimer's disease (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Drug overdose
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

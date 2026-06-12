@@ -1,0 +1,121 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 69-year-old male
+Admission: 2020-04-13 - 2020-04-14
+Encounter type: inpatient (Drug rehabilitation and detoxification)
+Chief Complaint: Drug rehabilitation and detoxification
+
+History of Present Illness:
+The patient was admitted for Drug rehabilitation and detoxification.
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic intractable migraine without aura (active)
+  - Chronic kidney disease stage 1 (disorder) (active)
+  - Chronic pain (active)
+  - Diabetes (active)
+  - Diabetic renal disease (disorder) (active)
+  - Drug overdose (active)
+  - Hyperglycemia (disorder) (active)
+  - Hyperlipidemia (active)
+  - Hypertriglyceridemia (disorder) (active)
+  - Impacted molars (active)
+  - Metabolic syndrome X (disorder) (active)
+  - Opioid abuse (disorder) (active)
+  - Prediabetes (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Polyp of colon (resolved)
+
+Prior Encounters (most recent):
+  - 2020-03-20 [urgentcare] Urgent care clinic (procedure)
+  - 2020-01-17 [outpatient] Encounter for check up (procedure)
+  - 2019-12-20 [outpatient] Encounter for check up (procedure)
+  - 2019-11-22 [urgentcare] Urgent care clinic (procedure)
+  - 2019-10-18 [urgentcare] Urgent care clinic (procedure)
+  - 2019-09-20 [outpatient] Encounter for check up (procedure)
+  - 2019-09-14 [ambulatory] Hyperlipidemia
+  - 2019-08-23 [urgentcare] Urgent care clinic (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2020-01-17, ongoing for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2020-01-17, ongoing for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2019-12-20, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2019-12-20, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2019-09-20, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2019-09-20, discontinued for Diabetes)
+  - Simvastatin 10 MG Oral Tablet (started 2019-09-14, ongoing for Hyperlipidemia)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2019-05-24, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2019-05-24, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2019-04-26, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2019-04-26, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2019-02-22, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2019-02-22, discontinued for Diabetes)
+  - Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution (started 2018-12-06, discontinued for Acute bronchitis (disorder))
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2018-10-26, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2018-10-26, discontinued for Diabetes)
+  - Simvastatin 10 MG Oral Tablet (started 2018-09-14, discontinued for Hyperlipidemia)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2018-08-24, discontinued for Diabetes)
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet (started 2018-08-24, discontinued for Diabetes)
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin] (started 2018-04-20, discontinued for Diabetes)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Chronic intractable migraine without aura
+  - Chronic kidney disease stage 1 (disorder)
+  - Chronic pain
+  - Diabetes
+  - Diabetic renal disease (disorder)
+  - Drug overdose
+  - Hyperglycemia (disorder)
+  - Hyperlipidemia
+  - Hypertriglyceridemia (disorder)
+  - Impacted molars
+  - Metabolic syndrome X (disorder)
+  - Opioid abuse (disorder)
+  - Prediabetes
+
+Discharge Medications:
+  - 24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet
+  - Simvastatin 10 MG Oral Tablet
+  - insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic kidney disease stage 1 (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient nephrology follow-up.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Diabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Diabetic renal disease (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient nephrology follow-up.
+  # Drug overdose
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hyperglycemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hyperlipidemia
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hypertriglyceridemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Metabolic syndrome X (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Opioid abuse (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Prediabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

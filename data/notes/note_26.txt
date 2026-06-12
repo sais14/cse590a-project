@@ -1,0 +1,59 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 27-year-old male
+Admission: 2004-11-13 - 2004-11-17
+Encounter type: inpatient (Encounter Inpatient)
+Chief Complaint: Appendicitis
+
+History of Present Illness:
+The patient presented with History of appendectomy.
+
+Past Medical History:
+  - Appendicitis (active)
+  - History of appendectomy (active)
+  - Hypertension (active)
+
+Prior Encounters (most recent):
+  - 2004-02-27 [wellness] General examination of patient (procedure)
+  - 2003-02-21 [wellness] General examination of patient (procedure)
+  - 2002-02-15 [wellness] General examination of patient (procedure)
+  - 2001-02-09 [wellness] General examination of patient (procedure)
+  - 2000-02-04 [wellness] General examination of patient (procedure)
+  - 1999-01-29 [wellness] General examination of patient (procedure)
+  - 1998-01-23 [wellness] General examination of patient (procedure)
+  - 1997-01-17 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2004-02-27, ongoing for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2003-02-21, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2002-02-15, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2001-02-09, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2000-02-04, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 1999-01-29, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 1998-01-23, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 1997-01-17, discontinued for Hypertension)
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 1996-01-12, discontinued for Hypertension)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+Medications initiated or adjusted during this admission:
+  - Hydrochlorothiazide 25 MG Oral Tablet
+
+Discharge Diagnosis:
+  - Appendicitis
+  - History of appendectomy
+  - Hypertension
+
+Discharge Medications:
+  - Hydrochlorothiazide 25 MG Oral Tablet
+
+Assessment and Plan:
+  # Appendicitis
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # History of appendectomy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

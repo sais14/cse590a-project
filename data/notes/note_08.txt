@@ -1,0 +1,47 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 26-year-old female
+Admission: 1979-05-22 - 1979-05-26
+Encounter type: inpatient (Encounter Inpatient)
+Chief Complaint: Appendicitis
+
+History of Present Illness:
+The patient presented with History of appendectomy.
+
+Past Medical History:
+  - Appendicitis (active)
+  - Chronic sinusitis (disorder) (active)
+  - History of appendectomy (active)
+  - Stroke (active)
+
+Prior Encounters (most recent):
+  - 1976-06-23 [emergency] Stroke
+  - 1974-10-13 [ambulatory] Sinusitis (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - None on record.
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Appendicitis
+  - Chronic sinusitis (disorder)
+  - History of appendectomy
+  - Stroke
+
+Discharge Medications:
+  - None
+
+Assessment and Plan:
+  # Appendicitis
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic sinusitis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # History of appendectomy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Stroke
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

@@ -1,0 +1,74 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 50-year-old female
+Admission: 1991-06-21 - 1991-06-23
+Encounter type: inpatient (Admission to thoracic surgery department)
+Chief Complaint: Pulmonary emphysema (disorder)
+
+History of Present Illness:
+The patient was admitted for Pulmonary emphysema (disorder).
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Miscarriage in first trimester (active)
+  - Prediabetes (active)
+  - Pulmonary emphysema (disorder) (active)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Streptococcal sore throat (disorder) (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 1991-04-19 [wellness] General examination of patient (procedure)
+  - 1991-02-15 [ambulatory] Encounter for 'check-up'
+  - 1990-04-13 [wellness] General examination of patient (procedure)
+  - 1989-09-14 [ambulatory] Viral sinusitis (disorder)
+  - 1989-04-07 [wellness] General examination of patient (procedure)
+  - 1989-04-07 [ambulatory] Anemia (disorder)
+  - 1988-04-22 [outpatient] Patient encounter procedure
+  - 1988-04-01 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1991-04-19, ongoing for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1990-04-13, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1989-04-07, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1989-04-07, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1988-04-01, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1987-03-27, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1986-03-21, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1985-03-15, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1984-03-09, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1983-03-04, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1982-02-26, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1981-02-20, discontinued for Pulmonary emphysema (disorder))
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler (started 1981-02-20, discontinued for Pulmonary emphysema (disorder))
+  - Meperidine Hydrochloride 50 MG Oral Tablet (started 1964-09-11, discontinued)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transplant of lung (procedure)
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Miscarriage in first trimester
+  - Prediabetes
+  - Pulmonary emphysema (disorder)
+
+Discharge Medications:
+  - 60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Prediabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Pulmonary emphysema (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

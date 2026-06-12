@@ -1,0 +1,73 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 65-year-old female
+Admission: 2016-04-27 - 2016-04-28
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 86.0 mg/dL
+  - Creatinine: 1.1 mg/dL
+  - Urea Nitrogen: 7.7 mg/dL
+  - Sodium: 138.5 mmol/L
+  - Potassium: 5.2 mmol/L
+  - Chloride: 101.1 mmol/L
+
+Past Medical History:
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Malignant neoplasm of breast (disorder) (active)
+  - Polyp of colon (active)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Fracture subluxation of wrist (resolved)
+  - Primary malignant neoplasm of colon (resolved)
+
+Prior Encounters (most recent):
+  - 2016-02-24 [ambulatory] Malignant neoplasm of breast (disorder)
+  - 2016-02-24 [inpatient] Malignant neoplasm of breast (disorder)
+  - 2016-02-24 [inpatient] Malignant neoplasm of breast (disorder)
+  - 2015-12-31 [wellness] General examination of patient (procedure)
+  - 2015-10-30 [ambulatory] Chronic congestive heart failure (disorder)
+  - 2015-09-03 [outpatient] Encounter for check up (procedure)
+  - 2015-08-26 [ambulatory] Acute viral pharyngitis (disorder)
+  - 2015-03-01 [ambulatory] Malignant neoplasm of breast (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2016-04-27, ongoing for Chronic congestive heart failure (disorder))
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 2014-11-04, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 2014-11-04, ongoing for Chronic congestive heart failure (disorder))
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet (started 2009-05-19, discontinued)
+  - Naproxen sodium 220 MG Oral Tablet (started 2009-05-19, discontinued)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Body mass index 30+ - obesity (finding)
+  - Chronic congestive heart failure (disorder)
+  - Malignant neoplasm of breast (disorder)
+  - Polyp of colon
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Furosemide 40 MG Oral Tablet
+
+Assessment and Plan:
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Malignant neoplasm of breast (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Polyp of colon
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

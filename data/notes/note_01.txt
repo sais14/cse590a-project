@@ -1,0 +1,123 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 62-year-old male
+Admission: 2004-12-23 - 2004-12-24
+Encounter type: inpatient (Drug rehabilitation and detoxification)
+Chief Complaint: Drug rehabilitation and detoxification
+
+History of Present Illness:
+The patient was admitted for Drug rehabilitation and detoxification.
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Diabetes (active)
+  - Diabetic retinopathy associated with type II diabetes mellitus (disorder) (active)
+  - Drug overdose (active)
+  - History of single seizure (situation) (active)
+  - Hypertension (active)
+  - Hypertriglyceridemia (disorder) (active)
+  - Impacted molars (active)
+  - Malignant tumor of colon (active)
+  - Metabolic syndrome X (disorder) (active)
+  - Polyp of colon (active)
+  - Recurrent rectal polyp (active)
+  - Seizure disorder (active)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2004-09-25 [wellness] General examination of patient (procedure)
+  - 2004-06-01 [outpatient] Encounter for problem (procedure)
+  - 2004-05-02 [outpatient] Encounter for problem (procedure)
+  - 2004-04-21 [ambulatory] Malignant tumor of colon
+  - 2004-03-20 [ambulatory] Malignant tumor of colon
+  - 2004-02-19 [ambulatory] Malignant tumor of colon
+  - 2004-01-18 [ambulatory] Malignant tumor of colon
+  - 2003-12-16 [ambulatory] Malignant tumor of colon
+
+Medication History (prior to this admission; some may be discontinued):
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2004-09-25, ongoing for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2003-11-22, discontinued for Hypertension)
+  - Leucovorin 100 MG Injection (started 2003-11-14, ongoing for Malignant tumor of colon)
+  - 10 ML oxaliplatin 5 MG/ML Injection (started 2003-11-14, ongoing for Malignant tumor of colon)
+  - Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet (started 2003-11-09, discontinued for Viral sinusitis (disorder))
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2003-09-20, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2002-09-14, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2001-09-08, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2000-09-02, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1999-08-28, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1998-08-22, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1997-08-16, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1996-08-10, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1995-08-05, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1994-07-30, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1994-05-14, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1994-05-13, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1993-07-24, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1992-07-18, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 1991-07-13, discontinued for Hypertension)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Diabetes
+  - Diabetic retinopathy associated with type II diabetes mellitus (disorder)
+  - Drug overdose
+  - History of single seizure (situation)
+  - Hypertension
+  - Hypertriglyceridemia (disorder)
+  - Impacted molars
+  - Malignant tumor of colon
+  - Metabolic syndrome X (disorder)
+  - Polyp of colon
+  - Recurrent rectal polyp
+  - Seizure disorder
+
+Discharge Medications:
+  - 10 ML oxaliplatin 5 MG/ML Injection
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet
+  - Leucovorin 100 MG Injection
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Diabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Diabetic retinopathy associated with type II diabetes mellitus (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Drug overdose
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # History of single seizure (situation)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hypertriglyceridemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Malignant tumor of colon
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Metabolic syndrome X (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Polyp of colon
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Recurrent rectal polyp
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Seizure disorder
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

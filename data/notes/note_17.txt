@@ -1,0 +1,88 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 88-year-old male
+Admission: 2001-05-23 - 2001-05-24
+Encounter type: inpatient (Inpatient stay (finding))
+Chief Complaint: Chronic congestive heart failure (disorder)
+
+History of Present Illness:
+The patient was admitted for Chronic congestive heart failure (disorder).
+Pertinent laboratory results:
+  - Glucose: 78.1 mg/dL
+  - Creatinine: 0.6 mg/dL
+  - Urea Nitrogen: 10.5 mg/dL
+  - Sodium: 143.8 mmol/L
+  - Potassium: 5.2 mmol/L
+  - Chloride: 106.5 mmol/L
+
+Past Medical History:
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic congestive heart failure (disorder) (active)
+  - Hyperlipidemia (active)
+  - Osteoporosis (disorder) (active)
+  - Acute bacterial sinusitis (disorder) (resolved)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2000-12-29 [wellness] General examination of patient (procedure)
+  - 2000-10-21 [ambulatory] Hyperlipidemia
+  - 2000-05-28 [ambulatory] Chronic congestive heart failure (disorder)
+  - 1999-12-24 [wellness] General examination of patient (procedure)
+  - 1999-10-22 [ambulatory] Hyperlipidemia
+  - 1998-12-18 [wellness] General examination of patient (procedure)
+  - 1998-12-05 [ambulatory] Chronic congestive heart failure (disorder)
+  - 1998-11-16 [ambulatory] Acute viral pharyngitis (disorder)
+
+Medication History (prior to this admission; some may be discontinued):
+  - 10 ML Furosemide 10 MG/ML Injection (started 2001-05-23, ongoing for Chronic congestive heart failure (disorder))
+  - Simvastatin 10 MG Oral Tablet (started 2000-10-21, ongoing for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1999-10-22, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1998-10-22, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1997-10-22, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1996-10-22, discontinued for Hyperlipidemia)
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol] (started 1996-06-18, ongoing for Chronic congestive heart failure (disorder))
+  - Furosemide 40 MG Oral Tablet (started 1996-06-18, ongoing for Chronic congestive heart failure (disorder))
+  - Simvastatin 10 MG Oral Tablet (started 1995-10-23, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1994-10-23, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1993-10-23, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1992-10-23, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1991-10-24, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1990-10-24, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1989-10-24, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1988-10-24, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1987-10-25, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1986-10-25, discontinued for Hyperlipidemia)
+  - Simvastatin 10 MG Oral Tablet (started 1985-10-25, discontinued for Hyperlipidemia)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Transthoracic echocardiography
+  - Plain chest X-ray
+Medications initiated or adjusted during this admission:
+  - 10 ML Furosemide 10 MG/ML Injection
+
+Discharge Diagnosis:
+  - Body mass index 30+ - obesity (finding)
+  - Chronic congestive heart failure (disorder)
+  - Hyperlipidemia
+  - Osteoporosis (disorder)
+
+Discharge Medications:
+  - 10 ML Furosemide 10 MG/ML Injection
+  - 24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]
+  - Furosemide 40 MG Oral Tablet
+  - Simvastatin 10 MG Oral Tablet
+
+Assessment and Plan:
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic congestive heart failure (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Hyperlipidemia
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Osteoporosis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

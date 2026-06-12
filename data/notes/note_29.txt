@@ -1,0 +1,120 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 91-year-old female
+Admission: 2018-07-18 - 2018-07-19
+Encounter type: inpatient (Hospital admission)
+Chief Complaint: Pneumonia
+
+History of Present Illness:
+The patient presented with Pneumonia.
+
+Past Medical History:
+  - Alzheimer's disease (disorder) (active)
+  - Body mass index 30+ - obesity (finding) (active)
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Coronary Heart Disease (active)
+  - Drug overdose (active)
+  - Hyperlipidemia (active)
+  - Impacted molars (active)
+  - Miscarriage in first trimester (active)
+  - Osteoporosis (disorder) (active)
+  - Pneumonia (active)
+  - Polyp of colon (active)
+  - Prediabetes (active)
+  - Stroke (active)
+  - Polyp of colon (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2018-05-17 [ambulatory] Hyperlipidemia
+  - 2017-12-10 [wellness] General examination of patient (procedure)
+  - 2017-10-21 [ambulatory] Alzheimer's disease (disorder)
+  - 2017-05-17 [ambulatory] Hyperlipidemia
+  - 2017-02-04 [outpatient] Encounter for problem (procedure)
+  - 2016-12-04 [wellness] General examination of patient (procedure)
+  - 2016-05-19 [outpatient] Encounter for problem (procedure)
+  - 2016-05-17 [ambulatory] Hyperlipidemia
+
+Medication History (prior to this admission; some may be discontinued):
+  - Simvastatin 10 MG Oral Tablet (started 2018-05-17, ongoing for Hyperlipidemia)
+  - Clopidogrel 75 MG Oral Tablet (started 2017-12-10, ongoing)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2017-12-10, ongoing)
+  - Simvastatin 20 MG Oral Tablet (started 2017-12-10, ongoing)
+  - Amlodipine 5 MG Oral Tablet (started 2017-12-10, ongoing)
+  - Alendronic acid 10 MG Oral Tablet (started 2017-12-10, ongoing)
+  - Simvastatin 10 MG Oral Tablet (started 2017-05-17, discontinued for Hyperlipidemia)
+  - Clopidogrel 75 MG Oral Tablet (started 2016-12-04, discontinued)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2016-12-04, discontinued)
+  - Simvastatin 20 MG Oral Tablet (started 2016-12-04, discontinued)
+  - Amlodipine 5 MG Oral Tablet (started 2016-12-04, discontinued)
+  - Simvastatin 10 MG Oral Tablet (started 2016-05-17, discontinued for Hyperlipidemia)
+  - Clopidogrel 75 MG Oral Tablet (started 2015-11-29, discontinued)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2015-11-29, discontinued)
+  - Simvastatin 20 MG Oral Tablet (started 2015-11-29, discontinued)
+  - Amlodipine 5 MG Oral Tablet (started 2015-11-29, discontinued)
+  - Simvastatin 10 MG Oral Tablet (started 2015-05-18, discontinued for Hyperlipidemia)
+  - Clopidogrel 75 MG Oral Tablet (started 2014-11-23, discontinued)
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray (started 2014-11-23, discontinued)
+  - Simvastatin 20 MG Oral Tablet (started 2014-11-23, discontinued)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Alzheimer's disease (disorder)
+  - Body mass index 30+ - obesity (finding)
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Coronary Heart Disease
+  - Drug overdose
+  - Hyperlipidemia
+  - Impacted molars
+  - Miscarriage in first trimester
+  - Osteoporosis (disorder)
+  - Pneumonia
+  - Polyp of colon
+  - Prediabetes
+  - Stroke
+
+Discharge Medications:
+  - Alendronic acid 10 MG Oral Tablet
+  - Amlodipine 5 MG Oral Tablet
+  - Clopidogrel 75 MG Oral Tablet
+  - Memantine hydrochloride 2 MG/ML Oral Solution
+  - Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray
+  - Simvastatin 10 MG Oral Tablet
+  - Simvastatin 20 MG Oral Tablet
+
+Assessment and Plan:
+  # Alzheimer's disease (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Body mass index 30+ - obesity (finding)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient primary care follow-up.
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Coronary Heart Disease
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Drug overdose
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hyperlipidemia
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Miscarriage in first trimester
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Osteoporosis (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Pneumonia
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Polyp of colon
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Prediabetes
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient endocrinology follow-up.
+  # Stroke
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

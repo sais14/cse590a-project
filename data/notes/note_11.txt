@@ -1,0 +1,51 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 21-year-old male
+Admission: 2012-03-26 - 2012-03-27
+Encounter type: inpatient (Drug rehabilitation and detoxification)
+Chief Complaint: Drug rehabilitation and detoxification
+
+History of Present Illness:
+The patient was admitted for Drug rehabilitation and detoxification.
+
+Past Medical History:
+  - Major depression disorder (active)
+  - Acute bacterial sinusitis (disorder) (resolved)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Major depression  single episode (resolved)
+  - Sprain of ankle (resolved)
+
+Prior Encounters (most recent):
+  - 2011-12-08 [ambulatory] Major depression disorder
+  - 2011-12-08 [ambulatory] Major depression disorder
+  - 2011-12-01 [ambulatory] Major depression disorder
+  - 2011-11-22 [ambulatory] Major depression disorder
+  - 2011-11-15 [ambulatory] Major depression disorder
+  - 2011-11-04 [ambulatory] Major depression disorder
+  - 2011-10-27 [ambulatory] Major depression disorder
+  - 2011-10-22 [ambulatory] Major depression disorder
+
+Medication History (prior to this admission; some may be discontinued):
+  - FLUoxetine 20 MG Oral Capsule (started 2011-09-06, ongoing for Major depression  single episode)
+  - Naproxen sodium 220 MG Oral Tablet (started 2011-08-02, discontinued)
+  - FLUoxetine 20 MG Oral Capsule (started 2011-05-30, discontinued for Major depression  single episode)
+  - Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet (started 2011-05-30, discontinued)
+  - FLUoxetine 20 MG Oral Capsule (started 2010-08-14, discontinued for Major depression  single episode)
+  - FLUoxetine 20 MG Oral Capsule (started 2010-08-03, discontinued for Major depression  single episode)
+  - Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet (started 2010-08-03, discontinued)
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Major depression disorder
+
+Discharge Medications:
+  - FLUoxetine 20 MG Oral Capsule
+
+Assessment and Plan:
+  # Major depression disorder
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

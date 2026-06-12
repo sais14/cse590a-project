@@ -1,0 +1,85 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 57-year-old male
+Admission: 1999-03-18 - 1999-03-19
+Encounter type: inpatient (Hospital admission)
+Chief Complaint: Pneumonia
+
+History of Present Illness:
+The patient presented with Pneumonia.
+
+Past Medical History:
+  - Chronic intractable migraine without aura (active)
+  - Chronic pain (active)
+  - Drug overdose (active)
+  - Familial Alzheimer's disease of early onset (disorder) (active)
+  - Gout (active)
+  - Impacted molars (active)
+  - Pneumonia (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Concussion with no loss of consciousness (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 1999-02-28 [outpatient] Encounter for problem (procedure)
+  - 1999-01-29 [outpatient] Encounter for problem (procedure)
+  - 1998-12-30 [outpatient] Encounter for problem (procedure)
+  - 1998-11-30 [outpatient] Encounter for problem (procedure)
+  - 1998-10-31 [outpatient] Encounter for problem (procedure)
+  - 1998-10-01 [outpatient] Encounter for problem (procedure)
+  - 1998-09-01 [outpatient] Encounter for problem (procedure)
+  - 1998-08-02 [outpatient] Encounter for problem (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet (started 1993-09-16, discontinued for Viral sinusitis (disorder))
+  - Acetaminophen 325 MG Oral Tablet (started 1993-08-30, discontinued for Acute bronchitis (disorder))
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 1992-11-21, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1992-05-21, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1992-04-14, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1992-03-08, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1992-01-31, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1991-12-11, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 1991-09-05, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 1991-05-31, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 1991-03-04, discontinued)
+  - Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet (started 1990-12-29, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1990-10-02, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 1990-06-15, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 1990-04-11, discontinued)
+  - Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet (started 1990-03-21, discontinued)
+  - Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet (started 1990-02-05, discontinued)
+  - Acetaminophen 325 MG Oral Tablet (started 1989-09-19, discontinued for Acute bronchitis (disorder))
+
+Hospital Course:
+The patient was managed medically without procedural intervention.
+
+Discharge Diagnosis:
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Drug overdose
+  - Familial Alzheimer's disease of early onset (disorder)
+  - Gout
+  - Impacted molars
+  - Pneumonia
+
+Discharge Medications:
+  - None
+
+Assessment and Plan:
+  # Chronic intractable migraine without aura
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Chronic pain
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Drug overdose
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Familial Alzheimer's disease of early onset (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Gout
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Impacted molars
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Pneumonia
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.

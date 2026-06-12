@@ -1,0 +1,930 @@
+{
+  "00185faa-2760-4218-9bf5-db301acf8274": {
+    "patient_id": "00185faa-2760-4218-9bf5-db301acf8274",
+    "index_encounter_id": "13517006-84cd-4fa0-b63f-6d63b4dfcba6",
+    "discharge_date": "2020-04-15",
+    "true_medications": [
+      "Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Impacted molars"
+    ],
+    "should_have_followup_for": []
+  },
+  "02f9aadd-72de-4b20-b381-f4c3b1cf7aa3": {
+    "patient_id": "02f9aadd-72de-4b20-b381-f4c3b1cf7aa3",
+    "index_encounter_id": "e5646296-845e-4ef3-8c8e-67bba85e9b1a",
+    "discharge_date": "2004-12-24",
+    "true_medications": [
+      "10 ML oxaliplatin 5 MG/ML Injection",
+      "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+      "Leucovorin 100 MG Injection"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Diabetes",
+      "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+      "Drug overdose",
+      "History of single seizure (situation)",
+      "Hypertension",
+      "Hypertriglyceridemia (disorder)",
+      "Impacted molars",
+      "Malignant tumor of colon",
+      "Metabolic syndrome X (disorder)",
+      "Polyp of colon",
+      "Recurrent rectal polyp",
+      "Seizure disorder"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Diabetes",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "0325261f-61eb-46f8-acc6-89d15053fecd": {
+    "patient_id": "0325261f-61eb-46f8-acc6-89d15053fecd",
+    "index_encounter_id": "3d024a3e-5f99-423b-abc8-1d8d4881afda",
+    "discharge_date": "2007-09-02",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+      "Amlodipine 5 MG Oral Tablet",
+      "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+      "Clopidogrel 75 MG Oral Tablet",
+      "Furosemide 40 MG Oral Tablet",
+      "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "Simvastatin 10 MG Oral Tablet",
+      "Simvastatin 20 MG Oral Tablet",
+      "Vitamin B 12 5 MG/ML Injectable Solution",
+      "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]"
+    ],
+    "true_active_conditions": [
+      "Cardiac Arrest",
+      "Chronic congestive heart failure (disorder)",
+      "Chronic kidney disease stage 1 (disorder)",
+      "Chronic sinusitis (disorder)",
+      "Coronary Heart Disease",
+      "Diabetes",
+      "Diabetic renal disease (disorder)",
+      "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+      "History of cardiac arrest (situation)",
+      "Hyperglycemia (disorder)",
+      "Hyperlipidemia",
+      "Hypertension",
+      "Hypertriglyceridemia (disorder)",
+      "Metabolic syndrome X (disorder)",
+      "Miscarriage in first trimester",
+      "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)",
+      "Prediabetes",
+      "Pulmonary emphysema (disorder)"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Chronic kidney disease stage 1 (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Coronary Heart Disease",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Diabetes",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Diabetic renal disease (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "03612a7e-6460-4ef6-9528-59d60f970b93": {
+    "patient_id": "03612a7e-6460-4ef6-9528-59d60f970b93",
+    "index_encounter_id": "2d47840a-0d76-46e7-b03b-b2b1682cea01",
+    "discharge_date": "2014-09-17",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Appendicitis",
+      "Chronic congestive heart failure (disorder)",
+      "Chronic sinusitis (disorder)",
+      "History of appendectomy"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "04630e85-e9f5-4a9b-be75-97f2c3346037": {
+    "patient_id": "04630e85-e9f5-4a9b-be75-97f2c3346037",
+    "index_encounter_id": "ee7f8c9c-68f4-455e-9deb-9c9d23d758ab",
+    "discharge_date": "1988-06-27",
+    "true_medications": [
+      "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+      "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Appendicitis",
+      "Chronic obstructive bronchitis (disorder)",
+      "History of appendectomy",
+      "Rupture of appendix"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Chronic obstructive bronchitis (disorder)",
+        "specialty": "pulmonology"
+      }
+    ]
+  },
+  "04a849f4-1aaf-4112-a62f-d44df4325773": {
+    "patient_id": "04a849f4-1aaf-4112-a62f-d44df4325773",
+    "index_encounter_id": "d7f24a37-e081-4f96-9d2c-6211c1c8b747",
+    "discharge_date": "2020-01-24",
+    "true_medications": [
+      "Hydrochlorothiazide 25 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Hypertension",
+      "Impacted molars"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "0522e580-6775-49f5-b471-b39624280402": {
+    "patient_id": "0522e580-6775-49f5-b471-b39624280402",
+    "index_encounter_id": "dd90d94e-e72a-4c52-87ec-c5eb953bdd2d",
+    "discharge_date": "2016-04-28",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic congestive heart failure (disorder)",
+      "Malignant neoplasm of breast (disorder)",
+      "Polyp of colon"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "0606d624-7695-41e2-96f0-0b5d3578ae24": {
+    "patient_id": "0606d624-7695-41e2-96f0-0b5d3578ae24",
+    "index_encounter_id": "fc6ffc9d-144f-4a0b-bd59-e95b5685b963",
+    "discharge_date": "2003-12-18",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet",
+      "Simvastatin 10 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic congestive heart failure (disorder)",
+      "Hyperlipidemia"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "08180c75-dd87-418f-95ff-06fb2f434713": {
+    "patient_id": "08180c75-dd87-418f-95ff-06fb2f434713",
+    "index_encounter_id": "7ec108fb-e41d-4917-9ca9-391ea3af7597",
+    "discharge_date": "1979-05-26",
+    "true_medications": [],
+    "true_active_conditions": [
+      "Appendicitis",
+      "Chronic sinusitis (disorder)",
+      "History of appendectomy",
+      "Stroke"
+    ],
+    "should_have_followup_for": []
+  },
+  "099198eb-df60-41d1-ad22-3655b957d805": {
+    "patient_id": "099198eb-df60-41d1-ad22-3655b957d805",
+    "index_encounter_id": "ef36da35-9c26-47b1-8a21-14ce366614e1",
+    "discharge_date": "1999-03-19",
+    "true_medications": [],
+    "true_active_conditions": [
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Drug overdose",
+      "Familial Alzheimer's disease of early onset (disorder)",
+      "Gout",
+      "Impacted molars",
+      "Pneumonia"
+    ],
+    "should_have_followup_for": []
+  },
+  "09cbb3f1-c2ed-426c-8c53-ffda77efcb08": {
+    "patient_id": "09cbb3f1-c2ed-426c-8c53-ffda77efcb08",
+    "index_encounter_id": "1563ce8f-41ed-4321-b552-8134432b7dbf",
+    "discharge_date": "2010-08-31",
+    "true_medications": [
+      "0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe",
+      "1 ML DOCEtaxel 20 MG/ML Injection",
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet",
+      "Simvastatin 10 MG Oral Tablet",
+      "ferrous sulfate 325 MG Oral Tablet",
+      "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Carcinoma in situ of prostate (disorder)",
+      "Chronic congestive heart failure (disorder)",
+      "Chronic kidney disease stage 1 (disorder)",
+      "Diabetes",
+      "Diabetic renal disease (disorder)",
+      "Hyperlipidemia",
+      "Hypertriglyceridemia (disorder)",
+      "Metabolic syndrome X (disorder)",
+      "Neoplasm of prostate",
+      "Polyp of colon"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Chronic kidney disease stage 1 (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Diabetes",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Diabetic renal disease (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "09fc03c4-aef7-47e1-941a-618f437dfbe2": {
+    "patient_id": "09fc03c4-aef7-47e1-941a-618f437dfbe2",
+    "index_encounter_id": "0f363058-cd8a-47ff-95fb-ee3523c38915",
+    "discharge_date": "2012-03-27",
+    "true_medications": [
+      "FLUoxetine 20 MG Oral Capsule"
+    ],
+    "true_active_conditions": [
+      "Major depression disorder"
+    ],
+    "should_have_followup_for": []
+  },
+  "0ba90366-87ad-4f9d-9bcd-c11e63eb6f27": {
+    "patient_id": "0ba90366-87ad-4f9d-9bcd-c11e63eb6f27",
+    "index_encounter_id": "f927178e-6c1c-4071-a313-40e61fd1ee59",
+    "discharge_date": "2017-03-24",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet",
+      "Naproxen sodium 220 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic congestive heart failure (disorder)",
+      "Chronic sinusitis (disorder)",
+      "Miscarriage in first trimester",
+      "Osteoarthritis of knee"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "0c1606c8-637e-4ed3-baf4-67390d8f3956": {
+    "patient_id": "0c1606c8-637e-4ed3-baf4-67390d8f3956",
+    "index_encounter_id": "c0179609-860e-44b7-9f29-6a22d4e193a1",
+    "discharge_date": "2014-01-21",
+    "true_medications": [
+      "Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet",
+      "Camila 28 Day Pack",
+      "Hydrochlorothiazide 25 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Hypertension",
+      "Impacted molars",
+      "Miscarriage in first trimester"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "0c5aa52a-3b1d-4289-af16-29f7a2d07fec": {
+    "patient_id": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+    "index_encounter_id": "7f1a04c3-da34-4d83-80e3-9c561c69cfc7",
+    "discharge_date": "2019-12-18",
+    "true_medications": [
+      "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Miscarriage in first trimester",
+      "Perennial allergic rhinitis"
+    ],
+    "should_have_followup_for": []
+  },
+  "0edbb001-5914-42b6-9194-0a3c753b5c25": {
+    "patient_id": "0edbb001-5914-42b6-9194-0a3c753b5c25",
+    "index_encounter_id": "9456e213-0d67-4341-a914-9d9335ff99b6",
+    "discharge_date": "2020-01-29",
+    "true_medications": [
+      "Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet",
+      "amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic intractable migraine without aura",
+      "Hypertension",
+      "Miscarriage in first trimester",
+      "Prediabetes"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "0f5646bc-a156-4ec0-9252-5b592e3d3184": {
+    "patient_id": "0f5646bc-a156-4ec0-9252-5b592e3d3184",
+    "index_encounter_id": "d48dc148-d959-4157-bad7-94a3a7b12aee",
+    "discharge_date": "2019-05-21",
+    "true_medications": [
+      "Amlodipine 5 MG Oral Tablet",
+      "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+      "Clopidogrel 75 MG Oral Tablet",
+      "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "Simvastatin 20 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Cardiac Arrest",
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Coronary Heart Disease",
+      "Drug overdose",
+      "History of cardiac arrest (situation)",
+      "Hypertension",
+      "Impacted molars"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Coronary Heart Disease",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "119ab996-9fbd-4243-9a4a-e821dfc6c6f9": {
+    "patient_id": "119ab996-9fbd-4243-9a4a-e821dfc6c6f9",
+    "index_encounter_id": "0eeff0cf-4106-495b-b4af-4cc39f198a9b",
+    "discharge_date": "2001-05-24",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet",
+      "Simvastatin 10 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic congestive heart failure (disorder)",
+      "Hyperlipidemia",
+      "Osteoporosis (disorder)"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "1302bca8-7576-4009-aac7-8750c7d50140": {
+    "patient_id": "1302bca8-7576-4009-aac7-8750c7d50140",
+    "index_encounter_id": "87b5c862-b71d-47f8-b617-667a0c1b4c38",
+    "discharge_date": "1991-06-23",
+    "true_medications": [
+      "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Miscarriage in first trimester",
+      "Prediabetes",
+      "Pulmonary emphysema (disorder)"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "137acc1b-dbca-473e-84bb-fe1baaf98819": {
+    "patient_id": "137acc1b-dbca-473e-84bb-fe1baaf98819",
+    "index_encounter_id": "ab31f5f5-24a5-4d78-9846-6250c5bb6e3e",
+    "discharge_date": "1943-01-18",
+    "true_medications": [
+      "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Chronic kidney disease stage 1 (disorder)",
+      "Diabetes",
+      "Diabetic renal disease (disorder)",
+      "Hypertriglyceridemia (disorder)",
+      "Prediabetes"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Chronic kidney disease stage 1 (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Diabetes",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Diabetic renal disease (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "13a3a783-ecc5-4ec5-b3dc-168b15cebb88": {
+    "patient_id": "13a3a783-ecc5-4ec5-b3dc-168b15cebb88",
+    "index_encounter_id": "efa6aae7-f7d3-493e-9079-0e2d85c77887",
+    "discharge_date": "2020-04-14",
+    "true_medications": [
+      "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "Simvastatin 10 MG Oral Tablet",
+      "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic intractable migraine without aura",
+      "Chronic kidney disease stage 1 (disorder)",
+      "Chronic pain",
+      "Diabetes",
+      "Diabetic renal disease (disorder)",
+      "Drug overdose",
+      "Hyperglycemia (disorder)",
+      "Hyperlipidemia",
+      "Hypertriglyceridemia (disorder)",
+      "Impacted molars",
+      "Metabolic syndrome X (disorder)",
+      "Opioid abuse (disorder)",
+      "Prediabetes"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic kidney disease stage 1 (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Diabetes",
+        "specialty": "endocrinology"
+      },
+      {
+        "condition": "Diabetic renal disease (disorder)",
+        "specialty": "nephrology"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "13b9a676-7cfd-4b7c-bdb6-43ec52b7c919": {
+    "patient_id": "13b9a676-7cfd-4b7c-bdb6-43ec52b7c919",
+    "index_encounter_id": "5b230f62-151f-4868-b551-b54d41f90db9",
+    "discharge_date": "1977-03-29",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet",
+      "Furosemide 40 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Chronic congestive heart failure (disorder)",
+      "Chronic sinusitis (disorder)",
+      "Miscarriage in first trimester",
+      "Prediabetes"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "13db4bb8-d1dc-4158-a820-d2d1b7084fc4": {
+    "patient_id": "13db4bb8-d1dc-4158-a820-d2d1b7084fc4",
+    "index_encounter_id": "584a4859-ac8f-43b4-ac64-e23d6d21c87e",
+    "discharge_date": "2020-03-01",
+    "true_medications": [
+      "Alendronic acid 10 MG Oral Tablet",
+      "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+      "Naproxen sodium 220 MG Oral Tablet",
+      "Simvastatin 10 MG Oral Tablet",
+      "ferrous sulfate 325 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Body mass index 30+ - obesity (finding)",
+      "Hyperlipidemia",
+      "Hypertension",
+      "Malignant neoplasm of breast (disorder)",
+      "Miscarriage in first trimester",
+      "Osteoarthritis of knee",
+      "Osteoporosis (disorder)"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "144edc8e-936e-42d7-8e7d-f3578cf80cc2": {
+    "patient_id": "144edc8e-936e-42d7-8e7d-f3578cf80cc2",
+    "index_encounter_id": "54d0b980-ea99-4683-9672-389ad263f89f",
+    "discharge_date": "2017-02-12",
+    "true_medications": [
+      "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet",
+      "Acetaminophen 325 MG Oral Tablet",
+      "diphenhydrAMINE Hydrochloride 25 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Miscarriage in first trimester",
+      "Rupture of patellar tendon",
+      "Tubal pregnancy"
+    ],
+    "should_have_followup_for": []
+  },
+  "1474f954-3781-4de1-9d5d-27a2b8688419": {
+    "patient_id": "1474f954-3781-4de1-9d5d-27a2b8688419",
+    "index_encounter_id": "d5d89b36-ff6b-4824-90fa-31e196cc2d8b",
+    "discharge_date": "2020-01-18",
+    "true_medications": [
+      "amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Appendicitis",
+      "History of appendectomy",
+      "Hypertension",
+      "Normal pregnancy",
+      "Rupture of appendix"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "173c7abc-b19b-4533-aa53-7156b53df51f": {
+    "patient_id": "173c7abc-b19b-4533-aa53-7156b53df51f",
+    "index_encounter_id": "a0746a41-4aa8-4a98-9539-fabf6c910efa",
+    "discharge_date": "1993-08-19",
+    "true_medications": [
+      "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Concussion with no loss of consciousness",
+      "Prediabetes",
+      "Pulmonary emphysema (disorder)"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "1847f723-4c17-46b8-805a-61d8cb43c9bb": {
+    "patient_id": "1847f723-4c17-46b8-805a-61d8cb43c9bb",
+    "index_encounter_id": "c16aaa0e-c6b1-48fe-8cab-0044224680b4",
+    "discharge_date": "2004-11-17",
+    "true_medications": [
+      "Hydrochlorothiazide 25 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Appendicitis",
+      "History of appendectomy",
+      "Hypertension"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "1a100862-757a-4450-94a6-9731a522f707": {
+    "patient_id": "1a100862-757a-4450-94a6-9731a522f707",
+    "index_encounter_id": "097bc49a-b00f-4019-931f-d01f13989a55",
+    "discharge_date": "2014-10-07",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Digoxin 0.125 MG Oral Tablet",
+      "Furosemide 40 MG Oral Tablet",
+      "Verapamil Hydrochloride 40 MG",
+      "Warfarin Sodium 5 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Anemia (disorder)",
+      "Atrial Fibrillation",
+      "Chronic congestive heart failure (disorder)",
+      "Miscarriage in first trimester",
+      "Prediabetes"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Anemia (disorder)",
+        "specialty": "hematology"
+      },
+      {
+        "condition": "Atrial Fibrillation",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  },
+  "1a7e8f38-95df-4c27-8897-21ed04c3b98b": {
+    "patient_id": "1a7e8f38-95df-4c27-8897-21ed04c3b98b",
+    "index_encounter_id": "6a509112-adce-41b5-b34f-4f7fcc089a51",
+    "discharge_date": "2016-06-09",
+    "true_medications": [
+      "10 ML Furosemide 10 MG/ML Injection",
+      "24 HR Donepezil hydrochloride 10 MG / Memantine hydrochloride 28 MG Extended Release Oral Capsule",
+      "24 HR metoprolol succinate 100 MG Extended Release Oral Tablet [Toprol]",
+      "Furosemide 40 MG Oral Tablet",
+      "Hydrochlorothiazide 12.5 MG"
+    ],
+    "true_active_conditions": [
+      "Alzheimer's disease (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic congestive heart failure (disorder)",
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Drug overdose",
+      "Hypertension",
+      "Impacted molars"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Chronic congestive heart failure (disorder)",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hypertension",
+        "specialty": "cardiology"
+      }
+    ]
+  },
+  "1c0cea09-f0db-4ef0-a551-d67645ee4538": {
+    "patient_id": "1c0cea09-f0db-4ef0-a551-d67645ee4538",
+    "index_encounter_id": "db0dadde-dde0-4018-8515-5e6e10bab61d",
+    "discharge_date": "2018-07-19",
+    "true_medications": [
+      "Alendronic acid 10 MG Oral Tablet",
+      "Amlodipine 5 MG Oral Tablet",
+      "Clopidogrel 75 MG Oral Tablet",
+      "Memantine hydrochloride 2 MG/ML Oral Solution",
+      "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "Simvastatin 10 MG Oral Tablet",
+      "Simvastatin 20 MG Oral Tablet"
+    ],
+    "true_active_conditions": [
+      "Alzheimer's disease (disorder)",
+      "Body mass index 30+ - obesity (finding)",
+      "Chronic intractable migraine without aura",
+      "Chronic pain",
+      "Coronary Heart Disease",
+      "Drug overdose",
+      "Hyperlipidemia",
+      "Impacted molars",
+      "Miscarriage in first trimester",
+      "Osteoporosis (disorder)",
+      "Pneumonia",
+      "Polyp of colon",
+      "Prediabetes",
+      "Stroke"
+    ],
+    "should_have_followup_for": [
+      {
+        "condition": "Body mass index 30+ - obesity (finding)",
+        "specialty": "primary care"
+      },
+      {
+        "condition": "Coronary Heart Disease",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Hyperlipidemia",
+        "specialty": "cardiology"
+      },
+      {
+        "condition": "Prediabetes",
+        "specialty": "endocrinology"
+      }
+    ]
+  }
+}

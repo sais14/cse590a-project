@@ -1,0 +1,84 @@
+DISCHARGE SUMMARY
+============================================================
+Patient: 26-year-old female
+Admission: 2020-01-17 - 2020-01-18
+Encounter type: inpatient (Encounter for problem (procedure))
+Chief Complaint: Anemia (disorder)
+
+History of Present Illness:
+The patient was admitted for Anemia (disorder).
+
+Past Medical History:
+  - Anemia (disorder) (active)
+  - Appendicitis (active)
+  - History of appendectomy (active)
+  - Hypertension (active)
+  - Normal pregnancy (active)
+  - Rupture of appendix (active)
+  - Acute bronchitis (disorder) (resolved)
+  - Acute viral pharyngitis (disorder) (resolved)
+  - Normal pregnancy (resolved)
+  - Viral sinusitis (disorder) (resolved)
+
+Prior Encounters (most recent):
+  - 2020-01-17 [ambulatory] Normal pregnancy
+  - 2020-01-17 [ambulatory] Anemia (disorder)
+  - 2019-09-20 [ambulatory] Normal pregnancy
+  - 2019-09-13 [ambulatory] Normal pregnancy
+  - 2019-08-30 [ambulatory] Normal pregnancy
+  - 2019-08-28 [ambulatory] Acute bronchitis (disorder)
+  - 2019-05-31 [wellness] General examination of patient (procedure)
+  - 2018-05-25 [wellness] General examination of patient (procedure)
+
+Medication History (prior to this admission; some may be discontinued):
+  - Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution (started 2019-08-28, discontinued for Acute bronchitis (disorder))
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2019-05-31, ongoing for Hypertension)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2018-05-25, discontinued for Hypertension)
+  - Jolivette 28 Day Pack (started 2018-03-25, discontinued)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2017-05-19, discontinued for Hypertension)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2016-05-13, discontinued for Hypertension)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2015-07-17, discontinued for Hypertension)
+  - Acetaminophen 325 MG Oral Tablet (started 2015-07-07, discontinued for Acute bronchitis (disorder))
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2015-05-08, discontinued for Hypertension)
+  - Camila 28 Day Pack (started 2015-04-10, discontinued)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2014-05-02, discontinued for Hypertension)
+  - Jolivette 28 Day Pack (started 2014-01-29, discontinued)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2013-04-26, discontinued for Hypertension)
+  - 1 ML medroxyprogesterone acetate 150 MG/ML Injection (started 2013-02-03, discontinued)
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet (started 2012-07-19, discontinued for Hypertension)
+  - Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet (started 2012-05-20, discontinued for Hypertension)
+  - Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet (started 2012-04-27, discontinued for Viral sinusitis (disorder))
+  - Hydrochlorothiazide 25 MG Oral Tablet (started 2012-04-20, discontinued for Hypertension)
+  - Levora 0.15/30 28 Day Pack (started 2011-02-14, discontinued)
+
+Hospital Course:
+Procedures performed during this admission:
+  - Intravenous blood transfusion of packed cells (procedure)
+
+Discharge Diagnosis:
+  - Anemia (disorder)
+  - Appendicitis
+  - History of appendectomy
+  - Hypertension
+  - Normal pregnancy
+  - Rupture of appendix
+
+Discharge Medications:
+  - amLODIPine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet
+
+Assessment and Plan:
+  # Anemia (disorder)
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient hematology follow-up.
+  # Appendicitis
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # History of appendectomy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Hypertension
+    Stable at discharge. Reviewed associated medications and adherence. Recommend outpatient cardiology follow-up.
+  # Normal pregnancy
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+  # Rupture of appendix
+    Stable at discharge. Reviewed associated medications and adherence. Continue current management.
+
+Discharge Plan:
+The patient is clinically stable for discharge. Follow-up in 2 weeks with primary care. Patient counseled on medication adherence and instructed to return for any worsening symptoms.
