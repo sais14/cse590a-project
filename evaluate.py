@@ -1,28 +1,7 @@
-"""evaluate.py — Application-level metrics + headline plots.
-
-Inputs : data/ground_truth.json, results/raw_<config>.jsonl
-Outputs: results/evaluation.json
-         results/plots/latency_vs_length.pdf   (headline figure)
-         results/plots/pareto.pdf              (quality vs latency)
-
-Per-worker metrics (build_plan.md 6.2):
-  * Medication  : precision/recall/F1 of discharge_medications vs ground-truth
-                  active meds, matched on normalized drug name. N/A if the
-                  patient has 0 ground-truth meds.
-  * Problem list: precision/recall/F1 vs ground-truth active conditions. N/A if 0.
-  * Follow-up   : rule-based appropriateness = correct_specialties /
-                  required_specialties (specialty recommended for each
-                  ground-truth chronic condition). N/A if no required specialties.
-  * JSON validity: from json_valid / schema_valid flags recorded at run time.
-"""
 import argparse
 import json
 import os
 
-# --------------------------------------------------------------------------- #
-# Normalization helpers
-# --------------------------------------------------------------------------- #
-# Dosage / form / salt tokens that are not part of a drug's identity.
 _DRUG_STOP = {
     "oral", "tablet", "tablets", "capsule", "injection", "injectable",
     "suspension", "solution", "extended", "release", "hour", "hr", "pack",
@@ -35,24 +14,19 @@ _DRUG_STOP = {
 _COND_STOP = {"disorder", "finding", "disease", "of", "the", "with", "and",
               "in", "due", "to", "no", "first"}
 
-
 def _tokens(s):
     return "".join(c if c.isalnum() else " " for c in s.lower()).split()
-
 
 def drug_tokens(s):
     return {t for t in _tokens(s) if len(t) >= 4 and not t.isdigit()
             and t not in _DRUG_STOP}
 
-
 def cond_tokens(s):
     return {t for t in _tokens(s) if len(t) >= 4 and not t.isdigit()
             and t not in _COND_STOP}
 
-
 def _match(a_tokens, b_tokens):
     return bool(a_tokens & b_tokens)
-
 
 def prf(true_items, pred_items, tokenizer):
     """Token-overlap precision/recall/F1 between two string lists. None if
@@ -77,8 +51,6 @@ def prf(true_items, pred_items, tokenizer):
     return {"precision": precision, "recall": recall, "f1": f1,
             "n_true": len(true_tok), "n_pred": len(pred_tok)}
 
-
-# Specialty canonicalization for the follow-up rule.
 _SPECIALTY_CANON = {
     "cardiology": "cardiology", "cardiac": "cardiology", "cardiologist": "cardiology",
     "endocrinology": "endocrinology", "endocrine": "endocrinology",
@@ -93,7 +65,6 @@ _SPECIALTY_CANON = {
     "internal medicine": "primary care", "general practice": "primary care",
 }
 
-
 def canon_specialty(s):
     low = s.strip().lower()
     if low in _SPECIALTY_CANON:
@@ -102,7 +73,6 @@ def canon_specialty(s):
         if key in low:
             return val
     return low
-
 
 def followup_score(required_specialties, recommended_specialties):
     """correct_specialties / required_specialties. None if no required."""
@@ -114,10 +84,6 @@ def followup_score(required_specialties, recommended_specialties):
     return {"score": correct / len(req), "n_required": len(req),
             "n_correct": correct, "required": sorted(req), "recommended": sorted(rec)}
 
-
-# --------------------------------------------------------------------------- #
-# Per-config evaluation
-# --------------------------------------------------------------------------- #
 def evaluate_row(row, gt):
     """Compute the four metric families for one patient row."""
     plan = row["plan"]
@@ -144,11 +110,9 @@ def evaluate_row(row, gt):
                              if v.get("n_calls") else None),
     }
 
-
 def _mean(xs):
     xs = [x for x in xs if x is not None]
     return sum(xs) / len(xs) if xs else None
-
 
 def aggregate_eval(per_patient):
     def field(metric, key):
@@ -178,17 +142,12 @@ def aggregate_eval(per_patient):
         "mean_worker_f1": sum(worker_f1s) / len(worker_f1s) if worker_f1s else None,
     }
 
-
 def load_rows(results_dir, config):
     path = os.path.join(results_dir, f"raw_{config}.jsonl")
     if not os.path.exists(path):
         return None
     return [json.loads(line) for line in open(path, encoding="utf-8")]
 
-
-# --------------------------------------------------------------------------- #
-# Plots
-# --------------------------------------------------------------------------- #
 def plot_latency_vs_length(rows_by_config, out_path):
     import matplotlib
     matplotlib.use("Agg")
@@ -226,7 +185,6 @@ def plot_latency_vs_length(rows_by_config, out_path):
     plt.close(fig)
     print(f"Wrote {out_path}")
 
-
 def plot_pareto(eval_by_config, latency_by_config, out_path):
     import matplotlib
     matplotlib.use("Agg")
@@ -250,8 +208,6 @@ def plot_pareto(eval_by_config, latency_by_config, out_path):
     plt.close(fig)
     print(f"Wrote {out_path}")
 
-
-# --------------------------------------------------------------------------- #
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--ground-truth", default=os.path.join("data", "ground_truth.json"))
@@ -282,7 +238,6 @@ def main():
         json.dump(evaluation, f, indent=2)
     print(f"Wrote {out_eval} (configs: {list(evaluation.keys())})")
 
-    # The 3x3 worker x config F1 table to stdout.
     print("\n=== Worker x Config table ===")
     header = f"{'metric':22s}" + "".join(f"{c:>10s}" for c in evaluation)
     print(header)
@@ -304,7 +259,6 @@ def main():
             rows_by_config, os.path.join(plots_dir, "latency_vs_length.pdf"))
         plot_pareto(evaluation, median_latency,
                     os.path.join(plots_dir, "pareto.pdf"))
-
 
 if __name__ == "__main__":
     main()

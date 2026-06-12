@@ -1,39 +1,17 @@
-"""tools.py — SQL-backed tool functions over data/synthea.db.
-
-Five tools (per build_plan.md 3.2) plus an aggregator that concatenates their
-output into the unified `tool_results` block the workers see.
-
-DETERMINISM CONTRACT (critical for the prefix-caching ablation):
-  The same patient queried twice MUST return byte-identical strings.
-  - No wall-clock time: `lookback_days` is measured back from the patient's
-    discharge date (max encounter date in the DB), which is data-derived and
-    fixed. We never call datetime.now().
-  - No float reformatting: observation values are echoed as the verbatim text
-    stored in the DB, so we never depend on Python's float repr.
-  - Stable ordering: every query uses an explicit ORDER BY with full tiebreakers
-    AND results are re-sorted in Python, so order never depends on SQLite.
-  - No random IDs, no dict-iteration-order leakage into output.
-
-Return type: every tool returns a STRING (a formatted block ready to embed in a
-prompt). Concatenating them is how the shared tool_results block is built.
-"""
 import datetime as _dt
 import os
 import sqlite3
 
 DB_PATH = os.path.join("data", "synthea.db")
 
-
 def set_db_path(path):
     global DB_PATH
     DB_PATH = path
-
 
 def _open():
     """Fresh read-only connection per call (thread-safe under asyncio.to_thread)."""
     con = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True, check_same_thread=False)
     return con
-
 
 def _reference_date(con, patient_id):
     """Patient's discharge date = latest encounter date (YYYY-MM-DD). Deterministic."""
@@ -44,20 +22,14 @@ def _reference_date(con, patient_id):
     ).fetchone()
     return row[0] if row and row[0] else None
 
-
 def _cutoff(ref_date, lookback_days):
     """ISO date string `lookback_days` before ref_date (lexical-comparable)."""
     d = _dt.date.fromisoformat(ref_date) - _dt.timedelta(days=lookback_days)
     return d.isoformat()
 
-
 def _active_at(stop, ref_date):
     return stop is None or stop == "" or stop[:10] >= ref_date
 
-
-# --------------------------------------------------------------------------- #
-# Tool 1: medication history
-# --------------------------------------------------------------------------- #
 def get_medication_history(patient_id, lookback_days=365):
     """Medications in the lookback window, aggregated per drug with status."""
     con = _open()
@@ -76,7 +48,7 @@ def get_medication_history(patient_id, lookback_days=365):
     finally:
         con.close()
 
-    agg = {}  # description -> {first_start, ongoing, reasons{reason:count}}
+    agg = {}
     for desc, start, stop, reason in rows:
         a = agg.setdefault(desc, {"first": start, "ongoing": False, "reasons": {}})
         if start < a["first"]:
@@ -92,7 +64,6 @@ def get_medication_history(patient_id, lookback_days=365):
     for desc in sorted(agg):
         a = agg[desc]
         status = "ongoing" if a["ongoing"] else "discontinued"
-        # indication: most frequent reason, tie-broken alphabetically
         if a["reasons"]:
             ind = sorted(a["reasons"].items(), key=lambda kv: (-kv[1], kv[0]))[0][0]
         else:
@@ -102,7 +73,6 @@ def get_medication_history(patient_id, lookback_days=365):
             f"| indication: {ind}"
         )
     return "\n".join(lines)
-
 
 def _ongoing_medications(patient_id, lookback_days=365):
     """Helper: sorted list of drug descriptions ongoing as of discharge."""
@@ -121,10 +91,6 @@ def _ongoing_medications(patient_id, lookback_days=365):
         con.close()
     return sorted({d for (d, stop) in rows if _active_at(stop, ref)})
 
-
-# --------------------------------------------------------------------------- #
-# Tool 2: lab / vital trend
-# --------------------------------------------------------------------------- #
 def get_lab_trend(patient_id, lab_name, lookback_days=180, max_points=8):
     """Time-series of values for a lab/vital (verbatim stored values)."""
     con = _open()
@@ -143,7 +109,6 @@ def get_lab_trend(patient_id, lab_name, lookback_days=180, max_points=8):
     finally:
         con.close()
 
-    # Keep the most recent `max_points` readings, then present oldest->newest.
     rows = sorted(rows, key=lambda r: (r[0], r[1]))
     if len(rows) > max_points:
         rows = rows[-max_points:]
@@ -155,10 +120,6 @@ def get_lab_trend(patient_id, lab_name, lookback_days=180, max_points=8):
         lines.append(f"  - {date}: {value}{u}")
     return "\n".join(lines)
 
-
-# --------------------------------------------------------------------------- #
-# Tool 3: prior diagnoses
-# --------------------------------------------------------------------------- #
 def get_prior_diagnoses(patient_id):
     """Active and resolved conditions as of the discharge date."""
     con = _open()
@@ -183,10 +144,6 @@ def get_prior_diagnoses(patient_id):
     lines.extend(f"    - {c}" for c in resolved) if resolved else lines.append("    (none)")
     return "\n".join(lines)
 
-
-# --------------------------------------------------------------------------- #
-# Tool 4: prior encounters
-# --------------------------------------------------------------------------- #
 def get_prior_encounters(patient_id, n=5):
     """Most recent `n` encounter summaries (date, class, reason)."""
     con = _open()
@@ -210,11 +167,6 @@ def get_prior_encounters(patient_id, n=5):
         lines.append(f"  - {date} [{eclass}] {reason}")
     return "\n".join(lines)
 
-
-# --------------------------------------------------------------------------- #
-# Tool 5: drug interactions (MOCKED — static table, per build_plan.md 3.2)
-# --------------------------------------------------------------------------- #
-# Map drug-name substrings (lowercase) -> pharmacologic class.
 _DRUG_CLASSES = [
     ("warfarin", "anticoagulant"),
     ("aspirin", "nsaid"),
@@ -253,7 +205,6 @@ _DRUG_CLASSES = [
     ("verapamil", "ccb"),
 ]
 
-# Static 5-entry interaction table: (classA, classB, severity, description).
 _INTERACTIONS = [
     ("anticoagulant", "nsaid", "high",
      "Concurrent anticoagulant and NSAID increases GI bleeding risk."),
@@ -269,18 +220,15 @@ _INTERACTIONS = [
 
 _SEVERITY_RANK = {"high": 0, "medium": 1, "low": 2}
 
-
 def _classes_for(drug_name):
     low = drug_name.lower()
     return {cls for (kw, cls) in _DRUG_CLASSES if kw in low}
-
 
 def check_drug_interactions(drug_list):
     """MOCK RxNav: detect interacting pairs via a static 5-entry table.
 
     drug_list: list of drug-name strings. Output is deterministic (sorted).
     """
-    # Map present classes -> sorted example drug names that triggered them.
     present = {}
     for name in sorted(set(drug_list)):
         for cls in _classes_for(name):
@@ -304,11 +252,6 @@ def check_drug_interactions(drug_list):
         lines.append(f"  - [{severity.upper()}] {da} + {db}: {desc}")
     return "\n".join(lines)
 
-
-# --------------------------------------------------------------------------- #
-# Aggregator: unified tool_results block
-# --------------------------------------------------------------------------- #
-# Fixed, deterministic set of labs/vitals to trend in the shared context.
 _TREND_LABS = [
     "Systolic Blood Pressure",
     "Body Mass Index",
@@ -317,7 +260,6 @@ _TREND_LABS = [
     "Potassium",
     "Hemoglobin A1c/Hemoglobin.total in Blood",
 ]
-
 
 def build_tool_results(patient_id):
     """Concatenate all five tools into the unified tool_results block.
@@ -329,13 +271,11 @@ def build_tool_results(patient_id):
     blocks.append(get_medication_history(patient_id, lookback_days=365))
     blocks.append(get_prior_diagnoses(patient_id))
     blocks.append(get_prior_encounters(patient_id, n=5))
-    # Lab trends: wide window so sparse synthetic records still show a trend.
     for lab in _TREND_LABS:
         blocks.append(get_lab_trend(patient_id, lab, lookback_days=3650, max_points=6))
     ongoing = _ongoing_medications(patient_id, lookback_days=365)
     blocks.append(check_drug_interactions(ongoing))
     return "\n\n".join(blocks)
-
 
 if __name__ == "__main__":
     import json

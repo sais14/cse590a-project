@@ -1,18 +1,3 @@
-"""generate_notes.py — Build templated discharge notes + ground truth.
-
-Per build_plan.md 2.3 (Option A): for each selected patient's most recent
-inpatient encounter, fill a discharge-summary template from structured Synthea
-data. Also emits fully-observable ground truth (2.4 / 6.1) for evaluation.
-
-Selection: eligible patients (from build_db) that additionally have at least
-one inpatient encounter and >=2 prior encounters before it (so the history
-tools have something to find). Deterministic (sorted by id) for reproducibility.
-
-Outputs:
-    data/notes/note_00.txt ... note_29.txt   (the discharge notes)
-    data/notes_manifest.json                  (note_id -> patient_id, path, chars)
-    data/ground_truth.json                    (patient_id -> truth dicts)
-"""
 import json
 import os
 import sqlite3
@@ -24,7 +9,6 @@ GROUND_TRUTH_PATH = os.path.join("data", "ground_truth.json")
 
 N_NOTES = 30
 
-# Vitals/labs to surface in the note narrative (description -> short label).
 VITALS = [
     "Systolic Blood Pressure", "Diastolic Blood Pressure", "Heart rate",
     "Respiratory rate", "Body Weight", "Body Mass Index", "Body Height",
@@ -37,7 +21,6 @@ LABS = [
     "High Density Lipoprotein Cholesterol", "Hemoglobin [Mass/volume] in Blood",
 ]
 
-# condition keyword -> recommended follow-up specialty (eval rule, 6.2).
 FOLLOWUP_RULES = [
     ("diabetes", "endocrinology"),
     ("prediabetes", "endocrinology"),
@@ -57,7 +40,6 @@ FOLLOWUP_RULES = [
     ("obesity", "primary care"),
 ]
 
-
 def followup_specialty(desc):
     d = desc.lower()
     for kw, spec in FOLLOWUP_RULES:
@@ -65,15 +47,12 @@ def followup_specialty(desc):
             return spec
     return None
 
-
 def active_at(stop, when):
     """A row (with `stop`) is active at `when` if stop is blank or stop >= when."""
     return stop is None or stop == "" or stop >= when
 
-
 def year(iso):
     return int(iso[:4]) if iso else None
-
 
 def select_patients(con):
     """Return up to N_NOTES (patient_id, index_encounter) tuples."""
@@ -110,7 +89,6 @@ def select_patients(con):
             break
     return selected
 
-
 def patient_demo(con, pid, as_of):
     p = con.execute(
         "SELECT birthdate, gender FROM patients WHERE id=?", (pid,)
@@ -120,48 +98,41 @@ def patient_demo(con, pid, as_of):
     g = {"M": "male", "F": "female"}.get(gender, gender or "unknown")
     return age, g
 
-
 def render_note(con, pid, enc):
     enc_id, start, stop, eclass, edesc, ereason = enc
     age, gender = patient_demo(con, pid, start)
     chief = ereason or edesc or "acute illness"
 
-    # Conditions newly recorded at this encounter (the acute presentation).
     new_conditions = [
         r[0] for r in con.execute(
             "SELECT description FROM conditions WHERE patient_id=? AND encounter_id=?",
             (pid, enc_id),
         ).fetchall()
     ]
-    # Active conditions as of discharge (chronic problem list).
     active_conditions = sorted({
         r[0] for r in con.execute(
             "SELECT description, stop FROM conditions WHERE patient_id=? AND start<=?",
             (pid, stop or start),
         ).fetchall() if active_at(r[1], stop or start)
     })
-    # Procedures performed during the stay.
     procs = [
         r[0] for r in con.execute(
             "SELECT description FROM procedures WHERE patient_id=? AND encounter_id=?",
             (pid, enc_id),
         ).fetchall()
     ]
-    # Medications started during the stay.
     started_meds = [
         r[0] for r in con.execute(
             "SELECT description FROM medications WHERE patient_id=? AND encounter_id=?",
             (pid, enc_id),
         ).fetchall()
     ]
-    # Active medications at discharge.
     discharge_meds = sorted({
         r[0] for r in con.execute(
             "SELECT description, stop FROM medications WHERE patient_id=? AND start<=?",
             (pid, stop or start),
         ).fetchall() if active_at(r[1], stop or start)
     })
-    # Vitals/labs recorded at this encounter for the narrative.
     obs = con.execute(
         """SELECT description, value, units FROM observations
            WHERE patient_id=? AND encounter_id=?""",
@@ -169,21 +140,18 @@ def render_note(con, pid, enc):
     ).fetchall()
     obs_map = {d: (v, u) for (d, v, u) in obs}
 
-    # Past medical history: conditions resolved before this admission.
     resolved_conditions = sorted({
         r[0] for r in con.execute(
             "SELECT description, stop FROM conditions WHERE patient_id=? AND start<?",
             (pid, start),
         ).fetchall() if r[1] and r[1] != "" and r[1] < (stop or start)
     })
-    # Prior encounters (most recent 8 before this admission) for the recap.
     prior_encs = con.execute(
         """SELECT start, encounter_class, COALESCE(NULLIF(reason_description,''),description)
            FROM encounters WHERE patient_id=? AND start<?
            ORDER BY start DESC LIMIT 8""",
         (pid, start),
     ).fetchall()
-    # Medication history over the year before discharge, with indications.
     med_history = con.execute(
         """SELECT description, start, stop, reason_description FROM medications
            WHERE patient_id=? AND start<? ORDER BY start DESC LIMIT 20""",
@@ -301,7 +269,6 @@ def render_note(con, pid, enc):
     }
     return note, truth
 
-
 def main():
     if not os.path.exists(DB_PATH):
         raise SystemExit("data/synthea.db not found. Run build_db.py first.")
@@ -345,7 +312,6 @@ def main():
               f"median={lengths[len(lengths)//2]} max={lengths[-1]}")
         print(f"Approx tokens: min={lengths[0]//4} "
               f"median={lengths[len(lengths)//2]//4} max={lengths[-1]//4}")
-
 
 if __name__ == "__main__":
     main()

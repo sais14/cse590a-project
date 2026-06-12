@@ -1,32 +1,3 @@
-"""benchmark.py — Run one config (A/B/C) over the 30 patients; dump metrics.
-
-Configs (build_plan.md 5):
-  A  single-shot baseline   (agent.run_single_shot; one LLM call per patient)
-  B  full agent, prefix cache OFF
-  C  full agent, prefix cache ON
-
-B and C share identical client code (agent.run_agent). The ONLY difference is a
-vLLM *server* flag, so this script does NOT manage the server. The operator must
-(re)launch vLLM with the appropriate flag before each run:
-
-    # Config B (cache OFF):
-    python -m vllm.entrypoints.openai.api_server --model <MODEL> \
-        --dtype bfloat16 --max-model-len 8192 --port 8000 \
-        --gpu-memory-utilization 0.9 --no-enable-prefix-caching
-    python benchmark.py --config B
-
-    # Config C (cache ON) — restart the server first:
-    python -m vllm.entrypoints.openai.api_server --model <MODEL> \
-        --dtype bfloat16 --max-model-len 8192 --port 8000 \
-        --gpu-memory-utilization 0.9 --enable-prefix-caching
-    python benchmark.py --config C
-
-Each invocation writes results/raw_<config>.jsonl (one line per patient) and
-recomputes results/aggregate.json across whatever raw_*.jsonl exist.
-
-Local wiring smoke test (no GPU/server):
-    python benchmark.py --config B --mock --no-metrics --limit 3 --output-dir /tmp/bt
-"""
 import argparse
 import asyncio
 import json
@@ -36,31 +7,26 @@ import statistics as stats
 import agent
 import tools
 
-# vLLM Prometheus metric names we care about (build_plan.md 4.3).
 VLLM_METRICS = [
     "vllm:gpu_prefix_cache_hit_rate",
     "vllm:gpu_cache_usage_perc",
     "vllm:prompt_tokens_total",
     "vllm:generation_tokens_total",
 ]
-# Counters get a before/after delta; gauges are read as snapshots.
 COUNTER_METRICS = {"vllm:prompt_tokens_total", "vllm:generation_tokens_total"}
 
-
 def metrics_url_from_base(base_url):
-    # base_url like http://localhost:8000/v1 -> http://localhost:8000/metrics
     root = base_url.rstrip("/")
     if root.endswith("/v1"):
         root = root[:-3]
     return root.rstrip("/") + "/metrics"
-
 
 def scrape_vllm_metrics(metrics_url):
     """Return {metric_name: float} summed across label series. None on failure."""
     try:
         import requests
         text = requests.get(metrics_url, timeout=5).text
-    except Exception as exc:  # noqa: BLE001
+    except Exception as exc:
         return {"_error": str(exc)}
     out = {}
     for name in VLLM_METRICS:
@@ -77,7 +43,6 @@ def scrape_vllm_metrics(metrics_url):
         out[name] = total if found else None
     return out
 
-
 def metrics_delta(before, after):
     """Counters -> after-before delta; gauges -> after snapshot."""
     if not before or not after or "_error" in before or "_error" in after:
@@ -93,7 +58,6 @@ def metrics_delta(before, after):
             delta[name] = a
     return delta
 
-
 def summarize_worker_records(records):
     """Group CallRecords by worker into per-worker latency/ttft/tokens/validity."""
     per = {}
@@ -108,8 +72,8 @@ def summarize_worker_records(records):
         d["n_calls"] += 1
         d["latency_s"] += r.latency_s
         if d["ttft_s"] is None:
-            d["ttft_s"] = r.ttft_s          # first call's TTFT
-        d["prompt_tokens"] = r.prompt_tokens  # last call's prompt size
+            d["ttft_s"] = r.ttft_s
+        d["prompt_tokens"] = r.prompt_tokens
         d["completion_tokens"] += r.completion_tokens
         d["final_attempt"] = r.attempt
         d["json_valid"] = r.json_valid
@@ -118,17 +82,16 @@ def summarize_worker_records(records):
             d["had_correction"] = True
     return per
 
-
 async def run_one_patient(client, config, entry, model, metrics_url, use_metrics):
     pid = entry["patient_id"]
     note = open(entry["path"], encoding="utf-8").read()
-    tool_results = tools.build_tool_results(pid)  # deterministic, computed once
+    tool_results = tools.build_tool_results(pid)
 
     before = scrape_vllm_metrics(metrics_url) if use_metrics else None
     if config == "A":
         res = await agent.run_single_shot(
             client, pid, note, tool_results=tool_results, model=model, stream=True)
-    else:  # B or C — identical code; the server flag differs
+    else:
         res = await agent.run_agent(
             client, pid, note, tool_results=tool_results, model=model,
             use_guided=True, reflect=True, stream=True)
@@ -166,10 +129,9 @@ async def run_one_patient(client, config, entry, model, metrics_url, use_metrics
             "before": before, "after": after,
             "delta": metrics_delta(before, after),
         },
-        "plan": res.plan,  # carried for evaluate.py (F1 computation)
+        "plan": res.plan,
     }
     return record
-
 
 async def run_config(config, manifest, client, model, metrics_url, use_metrics,
                      limit=None):
@@ -185,10 +147,6 @@ async def run_config(config, manifest, client, model, metrics_url, use_metrics,
               f"calls={row['n_llm_calls']} reflect={row['reflection']['n_triggered']}")
     return rows
 
-
-# --------------------------------------------------------------------------- #
-# Aggregation
-# --------------------------------------------------------------------------- #
 def _pct(data, q):
     if not data:
         return None
@@ -201,7 +159,6 @@ def _pct(data, q):
     if lo + 1 < len(s):
         return s[lo] + frac * (s[lo + 1] - s[lo])
     return s[lo]
-
 
 def aggregate_config(rows):
     lat = [r["wall_clock_s"] for r in rows]
@@ -233,7 +190,6 @@ def aggregate_config(rows):
             max(1, sum(r["validity"]["n_calls"] for r in rows))),
     }
 
-    # Per-worker mean latency / TTFT (B/C have 3 workers; A has single_shot).
     workers = {}
     for r in rows:
         for w, d in r["per_worker"].items():
@@ -247,7 +203,6 @@ def aggregate_config(rows):
         for w, v in workers.items()
     }
 
-    # vLLM-derived: peak GPU cache utilization, mean prefix-cache hit rate.
     hit_rates, cache_use = [], []
     for r in rows:
         delta = r.get("vllm_metrics", {}).get("delta") or {}
@@ -260,7 +215,6 @@ def aggregate_config(rows):
     agg["prefix_cache_hit_rate_mean"] = stats.mean(hit_rates) if hit_rates else None
     agg["gpu_cache_usage_peak"] = max(cache_use) if cache_use else None
     return agg
-
 
 def recompute_aggregate(output_dir):
     aggregate = {}
@@ -275,8 +229,6 @@ def recompute_aggregate(output_dir):
         json.dump(aggregate, f, indent=2)
     print(f"Wrote {out} (configs: {list(aggregate.keys())})")
 
-
-# --------------------------------------------------------------------------- #
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -323,7 +275,6 @@ def main():
     print(f"\nWrote {raw_path} ({len(rows)} patients)")
 
     recompute_aggregate(args.output_dir)
-
 
 if __name__ == "__main__":
     main()

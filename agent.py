@@ -1,25 +1,3 @@
-"""agent.py — Orchestrator + 3 workers + assembler + reflection.
-
-Pipeline (build_plan.md 3.3):
-    [note + patient_id]
-        -> tool execution (tools.build_tool_results)
-        -> 3 workers fired CONCURRENTLY (asyncio.gather), each sharing a
-           byte-identical prompt prefix (the prefix-caching contract)
-        -> assembler -> one-round reflection -> structured follow-up plan
-
-Key guarantees:
-  * build_worker_prompt(worker, note, tool_results) constructs
-    SHARED_PREFIX + WORKER_SUFFIX, where SHARED_PREFIX (system preamble + note +
-    tool_results) is byte-identical across all three workers for a given patient.
-    Only the suffix (role instructions + schema description) varies.
-  * guided_json is attempted first; on parse/schema failure we retry once with
-    plain prompting + an explicit "valid JSON only" instruction. Per-call
-    validity is recorded for the benchmark.
-  * Every LLM call is timed and its prompt/completion token usage recorded.
-
-The real client is openai.AsyncOpenAI(base_url=.../v1). MockClient mirrors that
-surface so orchestration wiring can be verified locally without a GPU.
-"""
 import asyncio
 import json
 import time
@@ -30,9 +8,6 @@ import tools
 
 MODEL = "meta-llama/Llama-3.2-3B-Instruct"
 
-# --------------------------------------------------------------------------- #
-# Prompt construction — the prefix-caching contract
-# --------------------------------------------------------------------------- #
 SYSTEM_PREAMBLE = (
     "You are part of an autonomous post-discharge patient follow-up system. "
     "You are given a hospital discharge note and structured patient history "
@@ -88,7 +63,6 @@ PLAIN_JSON_INSTRUCTION = (
     "above. No prose, no explanation, no markdown code fences."
 )
 
-
 def shared_prefix(note, tool_results):
     """The byte-identical leading context shared by all three workers."""
     return (
@@ -99,7 +73,6 @@ def shared_prefix(note, tool_results):
         + tool_results
         + "\n\n"
     )
-
 
 def build_worker_prompt(worker_name, note, tool_results, correction=None):
     """Return {messages, prefix, suffix} for a worker.
@@ -116,10 +89,6 @@ def build_worker_prompt(worker_name, note, tool_results, correction=None):
     messages = [{"role": "user", "content": content}]
     return {"messages": messages, "prefix": prefix, "suffix": suffix}
 
-
-# --------------------------------------------------------------------------- #
-# JSON schemas (build_plan.md 3.5)
-# --------------------------------------------------------------------------- #
 SCHEMAS = {
     "medication": {
         "type": "object",
@@ -198,7 +167,6 @@ EMPTY_OUTPUT = {
     "followup": {"appointments": [], "monitoring": [], "red_flags": []},
 }
 
-
 def validate_json(instance, schema):
     """Minimal JSON-Schema validator (stdlib only): object/array/string/
     integer/number/boolean, properties, required, items, enum."""
@@ -230,7 +198,6 @@ def validate_json(instance, schema):
         return isinstance(instance, bool)
     return True
 
-
 def _extract_json(text):
     """Parse a JSON object from a model response, tolerating ```json fences."""
     s = text.strip()
@@ -239,7 +206,6 @@ def _extract_json(text):
         if s.startswith("json"):
             s = s[4:]
         s = s.strip()
-    # Fall back to the outermost {...} span.
     try:
         return json.loads(s)
     except Exception:
@@ -249,14 +215,10 @@ def _extract_json(text):
             return json.loads(s[start:end + 1])
         raise
 
-
-# --------------------------------------------------------------------------- #
-# Timed LLM call + per-call records
-# --------------------------------------------------------------------------- #
 @dataclass
 class CallRecord:
     worker: str
-    attempt: str            # "guided" | "fallback"
+    attempt: str
     is_correction: bool
     guided: bool
     json_valid: bool
@@ -264,8 +226,7 @@ class CallRecord:
     prompt_tokens: int
     completion_tokens: int
     latency_s: float
-    ttft_s: float = 0.0     # time-to-first-token (== latency if not streamed)
-
+    ttft_s: float = 0.0
 
 async def _one_call(client, model, messages, schema, worker, attempt,
                     guided, is_correction, records, stream=False,
@@ -331,7 +292,6 @@ async def _one_call(client, model, messages, schema, worker, attempt,
     ))
     return (parsed if (json_valid and schema_valid) else None), text
 
-
 async def call_worker(client, worker, note, tool_results, model, records,
                       use_guided=True, correction=None, stream=False):
     """Run one worker: guided_json first, then plain-JSON fallback."""
@@ -347,7 +307,6 @@ async def call_worker(client, worker, note, tool_results, model, records,
         if parsed is not None:
             return parsed
 
-    # Fallback: plain prompting + explicit JSON-only instruction.
     msgs = [dict(m) for m in prompt["messages"]]
     msgs[-1]["content"] += PLAIN_JSON_INSTRUCTION
     parsed, _ = await _one_call(
@@ -355,10 +314,6 @@ async def call_worker(client, worker, note, tool_results, model, records,
         guided=False, is_correction=is_corr, records=records, stream=stream)
     return parsed if parsed is not None else EMPTY_OUTPUT[schema_key]
 
-
-# --------------------------------------------------------------------------- #
-# Assembler
-# --------------------------------------------------------------------------- #
 def assemble(patient_id, outputs):
     """Combine the three worker outputs into a unified follow_up_plan JSON."""
     return {
@@ -368,13 +323,8 @@ def assemble(patient_id, outputs):
         "follow_up": outputs["followup"],
     }
 
-
-# --------------------------------------------------------------------------- #
-# Reflection (one round)
-# --------------------------------------------------------------------------- #
 def _norm(s):
     return "".join(c if c.isalnum() else " " for c in s.lower()).split()
-
 
 def _name_in_note(name, note_lower):
     """A med name is supported if any of its alphabetic tokens (len>=4) is in
@@ -382,12 +332,10 @@ def _name_in_note(name, note_lower):
     toks = [t for t in _norm(name) if len(t) >= 4 and not t.isdigit()]
     return any(t in note_lower for t in toks)
 
-
 def _problem_matches(reason, problem_names_norm):
     """reason matches a problem if they share a content token (len>=4)."""
     rtoks = {t for t in _norm(reason) if len(t) >= 4}
     return any(rtoks & ptoks for ptoks in problem_names_norm)
-
 
 def reflection_check(outputs, note):
     """Detect inconsistencies. Returns {offending: {worker: correction_str},
@@ -396,7 +344,6 @@ def reflection_check(outputs, note):
     offending = {}
     note_lower = note.lower()
 
-    # Check 1: medication worker flagged a drug "new" that isn't in the note.
     bad_new = []
     for med in outputs["medication"].get("discharge_medications", []):
         if med.get("status") == "new" and not _name_in_note(med.get("name", ""),
@@ -414,7 +361,6 @@ def reflection_check(outputs, note):
     else:
         findings.append("MEDICATION: all 'new' medications are supported by the note. OK")
 
-    # Check 2: every follow-up appointment reason maps to an active problem.
     problem_names_norm = [
         {t for t in _norm(p.get("name", "")) if len(t) >= 4}
         for p in outputs["problem"].get("active_problems", [])
@@ -438,10 +384,6 @@ def reflection_check(outputs, note):
 
     return {"offending": offending, "findings": findings}
 
-
-# --------------------------------------------------------------------------- #
-# Orchestrator
-# --------------------------------------------------------------------------- #
 @dataclass
 class AgentResult:
     patient_id: str
@@ -450,7 +392,6 @@ class AgentResult:
     records: list = field(default_factory=list)
     reflection: dict = field(default_factory=dict)
     wall_clock_s: float = 0.0
-
 
 async def run_agent(client, patient_id, note, tool_results=None, model=MODEL,
                     use_guided=True, reflect=True, stream=False):
@@ -474,7 +415,6 @@ async def run_agent(client, patient_id, note, tool_results=None, model=MODEL,
         reflection["findings"] = chk["findings"]
         reflection["offending"] = list(chk["offending"].keys())
         if chk["offending"]:
-            # Re-invoke ONLY the offending workers, once, concurrently.
             offenders = list(chk["offending"].items())
             worker_map = {"medication": "medication", "problem": "problem",
                           "followup": "followup"}
@@ -495,10 +435,6 @@ async def run_agent(client, patient_id, note, tool_results=None, model=MODEL,
     )
     return result
 
-
-# --------------------------------------------------------------------------- #
-# Config A: single-shot baseline (no decomposition)
-# --------------------------------------------------------------------------- #
 FULL_SCHEMA = {
     "type": "object",
     "properties": {
@@ -524,7 +460,6 @@ SINGLE_SHOT_SUFFIX = (
     "strings}\n"
     "Output JSON only, no prose."
 )
-
 
 async def run_single_shot(client, patient_id, note, tool_results=None,
                           model=MODEL, use_guided=True, stream=False):
@@ -563,10 +498,6 @@ async def run_single_shot(client, patient_id, note, tool_results=None,
         wall_clock_s=time.perf_counter() - t0,
     )
 
-
-# --------------------------------------------------------------------------- #
-# MockClient — mirrors openai.AsyncOpenAI surface for local wiring tests
-# --------------------------------------------------------------------------- #
 def _resp(content, prompt_text):
     """Build an OpenAI-shaped response object."""
     usage = SimpleNamespace(
@@ -578,10 +509,6 @@ def _resp(content, prompt_text):
     choice = SimpleNamespace(message=msg)
     return SimpleNamespace(choices=[choice], usage=usage)
 
-
-# Canned outputs tailored to note_27 (CHF/AFib patient). The medication and
-# follow-up first-pass outputs each contain ONE deliberate inconsistency so the
-# reflection checks fire; the correction pass returns clean output.
 _MOCK_MED_FIRST = {
     "discharge_medications": [
         {"name": "Furosemide", "dose": "40 MG", "indication": "CHF", "status": "continued"},
@@ -638,7 +565,6 @@ _MOCK_SINGLE_SHOT = {
     "follow_up": _MOCK_FOLLOWUP_CORRECTED,
 }
 
-
 async def _mock_stream(content, prompt_text):
     """Async generator emulating an OpenAI/vLLM streamed completion."""
     mid = max(1, len(content) // 2)
@@ -653,11 +579,10 @@ async def _mock_stream(content, prompt_text):
     )
     yield SimpleNamespace(choices=[], usage=usage)
 
-
 class _MockCompletions:
     async def create(self, model, messages, temperature=0.0, max_tokens=1024,
                      extra_body=None, stream=False, stream_options=None):
-        await asyncio.sleep(0)  # behave like a coroutine that yields
+        await asyncio.sleep(0)
         content = messages[-1]["content"]
         low = content.lower()
         is_correction = "correction required" in low
@@ -677,17 +602,14 @@ class _MockCompletions:
             return _mock_stream(text, content)
         return _resp(text, content)
 
-
 class _MockChat:
     def __init__(self):
         self.completions = _MockCompletions()
-
 
 class MockClient:
     """Drop-in stand-in for openai.AsyncOpenAI for local wiring tests."""
     def __init__(self):
         self.chat = _MockChat()
-
 
 def records_to_dicts(records):
     return [asdict(r) for r in records]
